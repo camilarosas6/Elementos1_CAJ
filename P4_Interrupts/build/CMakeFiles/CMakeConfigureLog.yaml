@@ -1,0 +1,2510 @@
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/Users/anarojas/.pico-sdk/cmake/v4.3.4/CMake.app/Contents/share/cmake-4.3/Modules/CMakeDetermineSystem.cmake:12 (find_program)"
+      - "CMakeLists.txt:31 (project)"
+    mode: "program"
+    variable: "CMAKE_UNAME"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "uname"
+    candidate_directories:
+      - "/Users/anarojas/.pico-sdk/ninja/v1.13.2/"
+      - "/Users/anarojas/.pico-sdk/cmake/v4.3.4/bin/"
+      - "/usr/bin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Library/TeX/texbin/"
+      - "/usr/local/share/dotnet/"
+      - "/Users/anarojas/.dotnet/tools/"
+    searched_directories:
+      - "/Users/anarojas/.pico-sdk/ninja/v1.13.2/uname"
+      - "/Users/anarojas/.pico-sdk/cmake/v4.3.4/bin/uname"
+    found: "/usr/bin/uname"
+    search_context:
+      ENV{PATH}:
+        - "/Users/anarojas/.pico-sdk/ninja/v1.13.2"
+        - "/Users/anarojas/.pico-sdk/cmake/v4.3.4/bin"
+        - "/usr/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Library/TeX/texbin"
+        - "/usr/local/share/dotnet"
+        - "~/.dotnet/tools"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/Users/anarojas/.pico-sdk/sdk/2.3.0/cmake/preload/toolchains/util/find_compiler.cmake:12 (find_program)"
+      - "/Users/anarojas/.pico-sdk/sdk/2.3.0/cmake/preload/toolchains/util/find_compiler.cmake:39 (pico_find_compiler)"
+      - "/Users/anarojas/.pico-sdk/sdk/2.3.0/cmake/preload/toolchains/util/pico_gcc_common.cmake:25 (pico_find_compiler_with_triples)"
+      - "/Users/anarojas/.pico-sdk/sdk/2.3.0/cmake/preload/toolchains/util/pico_arm_gcc_common.cmake:14 (include)"
+      - "/Users/anarojas/.pico-sdk/sdk/2.3.0/cmake/preload/toolchains/pico_arm_cortex_m33_gcc.cmake:11 (include)"
+      - "/Users/anarojas/.pico-sdk/cmake/v4.3.4/CMake.app/Contents/share/cmake-4.3/Modules/CMakeDetermineSystem.cmake:146 (include)"
+      - "CMakeLists.txt:31 (project)"
+    mode: "program"
+    variable: "PICO_COMPILER_CC"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-none-eabi-gcc"
+    candidate_directories:
+      - "/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/"
+      - "/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/"
+    found: "/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/arm-none-eabi-gcc"
+    search_context:
+      ENV{PATH}:
+        - "/Users/anarojas/.pico-sdk/ninja/v1.13.2"
+        - "/Users/anarojas/.pico-sdk/cmake/v4.3.4/bin"
+        - "/usr/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Library/TeX/texbin"
+        - "/usr/local/share/dotnet"
+        - "~/.dotnet/tools"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/Users/anarojas/.pico-sdk/sdk/2.3.0/cmake/preload/toolchains/util/find_compiler.cmake:12 (find_program)"
+      - "/Users/anarojas/.pico-sdk/sdk/2.3.0/cmake/preload/toolchains/util/find_compiler.cmake:39 (pico_find_compiler)"
+      - "/Users/anarojas/.pico-sdk/sdk/2.3.0/cmake/preload/toolchains/util/pico_gcc_common.cmake:27 (pico_find_compiler_with_triples)"
+      - "/Users/anarojas/.pico-sdk/sdk/2.3.0/cmake/preload/toolchains/util/pico_arm_gcc_common.cmake:14 (include)"
+      - "/Users/anarojas/.pico-sdk/sdk/2.3.0/cmake/preload/toolchains/pico_arm_cortex_m33_gcc.cmake:11 (include)"
+      - "/Users/anarojas/.pico-sdk/cmake/v4.3.4/CMake.app/Contents/share/cmake-4.3/Modules/CMakeDetermineSystem.cmake:146 (include)"
+      - "CMakeLists.txt:31 (project)"
+    mode: "program"
+    variable: "PICO_COMPILER_CXX"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-none-eabi-g++"
+    candidate_directories:
+      - "/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/"
+      - "/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/"
+    found: "/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/arm-none-eabi-g++"
+    search_context:
+      ENV{PATH}:
+        - "/Users/anarojas/.pico-sdk/ninja/v1.13.2"
+        - "/Users/anarojas/.pico-sdk/cmake/v4.3.4/bin"
+        - "/usr/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Library/TeX/texbin"
+        - "/usr/local/share/dotnet"
+        - "~/.dotnet/tools"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/Users/anarojas/.pico-sdk/sdk/2.3.0/cmake/preload/toolchains/util/find_compiler.cmake:12 (find_program)"
+      - "/Users/anarojas/.pico-sdk/sdk/2.3.0/cmake/preload/toolchains/util/find_compiler.cmake:39 (pico_find_compiler)"
+      - "/Users/anarojas/.pico-sdk/sdk/2.3.0/cmake/preload/toolchains/util/pico_gcc_common.cmake:29 (pico_find_compiler_with_triples)"
+      - "/Users/anarojas/.pico-sdk/sdk/2.3.0/cmake/preload/toolchains/util/pico_arm_gcc_common.cmake:14 (include)"
+      - "/Users/anarojas/.pico-sdk/sdk/2.3.0/cmake/preload/toolchains/pico_arm_cortex_m33_gcc.cmake:11 (include)"
+      - "/Users/anarojas/.pico-sdk/cmake/v4.3.4/CMake.app/Contents/share/cmake-4.3/Modules/CMakeDetermineSystem.cmake:146 (include)"
+      - "CMakeLists.txt:31 (project)"
+    mode: "program"
+    variable: "PICO_OBJCOPY"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-none-eabi-objcopy"
+    candidate_directories:
+      - "/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/"
+      - "/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/"
+    found: "/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/arm-none-eabi-objcopy"
+    search_context:
+      ENV{PATH}:
+        - "/Users/anarojas/.pico-sdk/ninja/v1.13.2"
+        - "/Users/anarojas/.pico-sdk/cmake/v4.3.4/bin"
+        - "/usr/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Library/TeX/texbin"
+        - "/usr/local/share/dotnet"
+        - "~/.dotnet/tools"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/Users/anarojas/.pico-sdk/sdk/2.3.0/cmake/preload/toolchains/util/find_compiler.cmake:12 (find_program)"
+      - "/Users/anarojas/.pico-sdk/sdk/2.3.0/cmake/preload/toolchains/util/find_compiler.cmake:39 (pico_find_compiler)"
+      - "/Users/anarojas/.pico-sdk/sdk/2.3.0/cmake/preload/toolchains/util/pico_gcc_common.cmake:30 (pico_find_compiler_with_triples)"
+      - "/Users/anarojas/.pico-sdk/sdk/2.3.0/cmake/preload/toolchains/util/pico_arm_gcc_common.cmake:14 (include)"
+      - "/Users/anarojas/.pico-sdk/sdk/2.3.0/cmake/preload/toolchains/pico_arm_cortex_m33_gcc.cmake:11 (include)"
+      - "/Users/anarojas/.pico-sdk/cmake/v4.3.4/CMake.app/Contents/share/cmake-4.3/Modules/CMakeDetermineSystem.cmake:146 (include)"
+      - "CMakeLists.txt:31 (project)"
+    mode: "program"
+    variable: "PICO_OBJDUMP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-none-eabi-objdump"
+    candidate_directories:
+      - "/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/"
+      - "/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/"
+    found: "/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/arm-none-eabi-objdump"
+    search_context:
+      ENV{PATH}:
+        - "/Users/anarojas/.pico-sdk/ninja/v1.13.2"
+        - "/Users/anarojas/.pico-sdk/cmake/v4.3.4/bin"
+        - "/usr/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Library/TeX/texbin"
+        - "/usr/local/share/dotnet"
+        - "~/.dotnet/tools"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/Users/anarojas/.pico-sdk/cmake/v4.3.4/CMake.app/Contents/share/cmake-4.3/Modules/CMakeDetermineSystem.cmake:207 (message)"
+      - "CMakeLists.txt:31 (project)"
+    message: |
+      The target system is: PICO -  - cortex-m33
+      The host system is: Darwin - 24.6.0 - x86_64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/Users/anarojas/.pico-sdk/cmake/v4.3.4/CMake.app/Contents/share/cmake-4.3/Modules/CMakeNinjaFindMake.cmake:5 (find_program)"
+      - "CMakeLists.txt:31 (project)"
+    mode: "program"
+    variable: "CMAKE_MAKE_PROGRAM"
+    description: "Program used to build from build.ninja files."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ninja-build"
+      - "ninja"
+      - "samu"
+    candidate_directories:
+      - "/Users/anarojas/.pico-sdk/ninja/v1.13.2/"
+      - "/Users/anarojas/.pico-sdk/cmake/v4.3.4/bin/"
+      - "/usr/bin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Library/TeX/texbin/"
+      - "/usr/local/share/dotnet/"
+      - "/Users/anarojas/.dotnet/tools/"
+    searched_directories:
+      - "/Users/anarojas/.pico-sdk/ninja/v1.13.2/ninja-build"
+    found: "/Users/anarojas/.pico-sdk/ninja/v1.13.2/ninja"
+    search_context:
+      ENV{PATH}:
+        - "/Users/anarojas/.pico-sdk/ninja/v1.13.2"
+        - "/Users/anarojas/.pico-sdk/cmake/v4.3.4/bin"
+        - "/usr/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Library/TeX/texbin"
+        - "/usr/local/share/dotnet"
+        - "~/.dotnet/tools"
+      CMAKE_FIND_ROOT_PATH: "/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/Users/anarojas/.pico-sdk/cmake/v4.3.4/CMake.app/Contents/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:468 (find_file)"
+      - "/Users/anarojas/.pico-sdk/cmake/v4.3.4/CMake.app/Contents/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:506 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/Users/anarojas/.pico-sdk/cmake/v4.3.4/CMake.app/Contents/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/Users/anarojas/.pico-sdk/cmake/v4.3.4/CMake.app/Contents/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/Users/anarojas/.pico-sdk/cmake/v4.3.4/CMake.app/Contents/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:31 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "/Users/anarojas/.pico-sdk/cmake/v4.3.4/CMake.app/Contents/share/cmake-4.3/Modules/"
+      - "/Users/anarojas/.pico-sdk/sdk/2.3.0/cmake/"
+    found: "/Users/anarojas/.pico-sdk/cmake/v4.3.4/CMake.app/Contents/share/cmake-4.3/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "/Users/anarojas/.pico-sdk/ninja/v1.13.2"
+        - "/Users/anarojas/.pico-sdk/cmake/v4.3.4/bin"
+        - "/usr/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Library/TeX/texbin"
+        - "/usr/local/share/dotnet"
+        - "~/.dotnet/tools"
+      CMAKE_FIND_ROOT_PATH: "/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/Users/anarojas/.pico-sdk/cmake/v4.3.4/CMake.app/Contents/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/Users/anarojas/.pico-sdk/cmake/v4.3.4/CMake.app/Contents/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/Users/anarojas/.pico-sdk/cmake/v4.3.4/CMake.app/Contents/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:31 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/arm-none-eabi-gcc 
+      Build flags: -mcpu=cortex-m33;-mthumb;-march=armv8-m.main+fp+dsp;-mcmse;-mfloat-abi=softfp
+      Id flags:  
+      
+      The output was:
+      1
+      /Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/bin/ld: /Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/libc.a(libc_a-exit.o): in function `exit':
+      exit.c:(.text.exit+0x14): undefined reference to `_exit'
+      /Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/bin/ld: /Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/libc.a(libc_a-closer.o): in function `_close_r':
+      closer.c:(.text._close_r+0xc): undefined reference to `_close'
+      /Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/bin/ld: /Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/libc.a(libc_a-lseekr.o): in function `_lseek_r':
+      lseekr.c:(.text._lseek_r+0x14): undefined reference to `_lseek'
+      /Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/bin/ld: /Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/libc.a(libc_a-readr.o): in function `_read_r':
+      readr.c:(.text._read_r+0x14): undefined reference to `_read'
+      /Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/bin/ld: /Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/libc.a(libc_a-sbrkr.o): in function `_sbrk_r':
+      sbrkr.c:(.text._sbrk_r+0xc): undefined reference to `_sbrk'
+      /Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/bin/ld: /Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/libc.a(libc_a-writer.o): in function `_write_r':
+      writer.c:(.text._write_r+0x14): undefined reference to `_write'
+      collect2: error: ld returned 1 exit status
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/Users/anarojas/.pico-sdk/cmake/v4.3.4/CMake.app/Contents/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:468 (find_file)"
+      - "/Users/anarojas/.pico-sdk/cmake/v4.3.4/CMake.app/Contents/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:506 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/Users/anarojas/.pico-sdk/cmake/v4.3.4/CMake.app/Contents/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/Users/anarojas/.pico-sdk/cmake/v4.3.4/CMake.app/Contents/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/Users/anarojas/.pico-sdk/cmake/v4.3.4/CMake.app/Contents/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:31 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "/Users/anarojas/.pico-sdk/cmake/v4.3.4/CMake.app/Contents/share/cmake-4.3/Modules/"
+      - "/Users/anarojas/.pico-sdk/sdk/2.3.0/cmake/"
+    found: "/Users/anarojas/.pico-sdk/cmake/v4.3.4/CMake.app/Contents/share/cmake-4.3/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "/Users/anarojas/.pico-sdk/ninja/v1.13.2"
+        - "/Users/anarojas/.pico-sdk/cmake/v4.3.4/bin"
+        - "/usr/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Library/TeX/texbin"
+        - "/usr/local/share/dotnet"
+        - "~/.dotnet/tools"
+      CMAKE_FIND_ROOT_PATH: "/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/Users/anarojas/.pico-sdk/cmake/v4.3.4/CMake.app/Contents/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/Users/anarojas/.pico-sdk/cmake/v4.3.4/CMake.app/Contents/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/Users/anarojas/.pico-sdk/cmake/v4.3.4/CMake.app/Contents/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:31 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/arm-none-eabi-gcc 
+      Build flags: -mcpu=cortex-m33;-mthumb;-march=armv8-m.main+fp+dsp;-mcmse;-mfloat-abi=softfp
+      Id flags: -c 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+      
+      The C compiler identification is GNU, found in:
+        /Users/anarojas/Desktop/SE1_P4_EQ3/build/CMakeFiles/4.3.4/CompilerIdC/CMakeCCompilerId.o
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/Users/anarojas/.pico-sdk/cmake/v4.3.4/CMake.app/Contents/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/Users/anarojas/.pico-sdk/cmake/v4.3.4/CMake.app/Contents/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:31 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-none-eabi-ar"
+      - "ar"
+    candidate_directories:
+      - "/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/"
+      - "/Users/anarojas/.pico-sdk/ninja/v1.13.2/"
+      - "/Users/anarojas/.pico-sdk/cmake/v4.3.4/bin/"
+      - "/usr/bin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Library/TeX/texbin/"
+      - "/usr/local/share/dotnet/"
+      - "/Users/anarojas/.dotnet/tools/"
+    found: "/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/arm-none-eabi-ar"
+    search_context:
+      ENV{PATH}:
+        - "/Users/anarojas/.pico-sdk/ninja/v1.13.2"
+        - "/Users/anarojas/.pico-sdk/cmake/v4.3.4/bin"
+        - "/usr/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Library/TeX/texbin"
+        - "/usr/local/share/dotnet"
+        - "~/.dotnet/tools"
+      CMAKE_FIND_ROOT_PATH: "/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/Users/anarojas/.pico-sdk/cmake/v4.3.4/CMake.app/Contents/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/Users/anarojas/.pico-sdk/cmake/v4.3.4/CMake.app/Contents/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:31 (project)"
+    mode: "program"
+    variable: "CMAKE_RANLIB"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-none-eabi-ranlib"
+      - "ranlib"
+    candidate_directories:
+      - "/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/"
+      - "/Users/anarojas/.pico-sdk/ninja/v1.13.2/"
+      - "/Users/anarojas/.pico-sdk/cmake/v4.3.4/bin/"
+      - "/usr/bin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Library/TeX/texbin/"
+      - "/usr/local/share/dotnet/"
+      - "/Users/anarojas/.dotnet/tools/"
+    found: "/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/arm-none-eabi-ranlib"
+    search_context:
+      ENV{PATH}:
+        - "/Users/anarojas/.pico-sdk/ninja/v1.13.2"
+        - "/Users/anarojas/.pico-sdk/cmake/v4.3.4/bin"
+        - "/usr/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Library/TeX/texbin"
+        - "/usr/local/share/dotnet"
+        - "~/.dotnet/tools"
+      CMAKE_FIND_ROOT_PATH: "/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/Users/anarojas/.pico-sdk/cmake/v4.3.4/CMake.app/Contents/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/Users/anarojas/.pico-sdk/cmake/v4.3.4/CMake.app/Contents/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:31 (project)"
+    mode: "program"
+    variable: "CMAKE_STRIP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-none-eabi-strip"
+      - "strip"
+    candidate_directories:
+      - "/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/"
+      - "/Users/anarojas/.pico-sdk/ninja/v1.13.2/"
+      - "/Users/anarojas/.pico-sdk/cmake/v4.3.4/bin/"
+      - "/usr/bin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Library/TeX/texbin/"
+      - "/usr/local/share/dotnet/"
+      - "/Users/anarojas/.dotnet/tools/"
+    found: "/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/arm-none-eabi-strip"
+    search_context:
+      ENV{PATH}:
+        - "/Users/anarojas/.pico-sdk/ninja/v1.13.2"
+        - "/Users/anarojas/.pico-sdk/cmake/v4.3.4/bin"
+        - "/usr/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Library/TeX/texbin"
+        - "/usr/local/share/dotnet"
+        - "~/.dotnet/tools"
+      CMAKE_FIND_ROOT_PATH: "/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/Users/anarojas/.pico-sdk/cmake/v4.3.4/CMake.app/Contents/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/Users/anarojas/.pico-sdk/cmake/v4.3.4/CMake.app/Contents/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:31 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-none-eabi-ld"
+      - "ld"
+    candidate_directories:
+      - "/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/"
+      - "/Users/anarojas/.pico-sdk/ninja/v1.13.2/"
+      - "/Users/anarojas/.pico-sdk/cmake/v4.3.4/bin/"
+      - "/usr/bin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Library/TeX/texbin/"
+      - "/usr/local/share/dotnet/"
+      - "/Users/anarojas/.dotnet/tools/"
+    found: "/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/arm-none-eabi-ld"
+    search_context:
+      ENV{PATH}:
+        - "/Users/anarojas/.pico-sdk/ninja/v1.13.2"
+        - "/Users/anarojas/.pico-sdk/cmake/v4.3.4/bin"
+        - "/usr/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Library/TeX/texbin"
+        - "/usr/local/share/dotnet"
+        - "~/.dotnet/tools"
+      CMAKE_FIND_ROOT_PATH: "/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/Users/anarojas/.pico-sdk/cmake/v4.3.4/CMake.app/Contents/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/Users/anarojas/.pico-sdk/cmake/v4.3.4/CMake.app/Contents/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:31 (project)"
+    mode: "program"
+    variable: "CMAKE_NM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-none-eabi-nm"
+      - "nm"
+    candidate_directories:
+      - "/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/"
+      - "/Users/anarojas/.pico-sdk/ninja/v1.13.2/"
+      - "/Users/anarojas/.pico-sdk/cmake/v4.3.4/bin/"
+      - "/usr/bin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Library/TeX/texbin/"
+      - "/usr/local/share/dotnet/"
+      - "/Users/anarojas/.dotnet/tools/"
+    found: "/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/arm-none-eabi-nm"
+    search_context:
+      ENV{PATH}:
+        - "/Users/anarojas/.pico-sdk/ninja/v1.13.2"
+        - "/Users/anarojas/.pico-sdk/cmake/v4.3.4/bin"
+        - "/usr/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Library/TeX/texbin"
+        - "/usr/local/share/dotnet"
+        - "~/.dotnet/tools"
+      CMAKE_FIND_ROOT_PATH: "/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/Users/anarojas/.pico-sdk/cmake/v4.3.4/CMake.app/Contents/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/Users/anarojas/.pico-sdk/cmake/v4.3.4/CMake.app/Contents/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:31 (project)"
+    mode: "program"
+    variable: "CMAKE_READELF"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-none-eabi-readelf"
+      - "readelf"
+    candidate_directories:
+      - "/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/"
+      - "/Users/anarojas/.pico-sdk/ninja/v1.13.2/"
+      - "/Users/anarojas/.pico-sdk/cmake/v4.3.4/bin/"
+      - "/usr/bin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Library/TeX/texbin/"
+      - "/usr/local/share/dotnet/"
+      - "/Users/anarojas/.dotnet/tools/"
+    found: "/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/arm-none-eabi-readelf"
+    search_context:
+      ENV{PATH}:
+        - "/Users/anarojas/.pico-sdk/ninja/v1.13.2"
+        - "/Users/anarojas/.pico-sdk/cmake/v4.3.4/bin"
+        - "/usr/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Library/TeX/texbin"
+        - "/usr/local/share/dotnet"
+        - "~/.dotnet/tools"
+      CMAKE_FIND_ROOT_PATH: "/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/Users/anarojas/.pico-sdk/cmake/v4.3.4/CMake.app/Contents/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/Users/anarojas/.pico-sdk/cmake/v4.3.4/CMake.app/Contents/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:31 (project)"
+    mode: "program"
+    variable: "CMAKE_DLLTOOL"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-none-eabi-dlltool"
+      - "dlltool"
+    candidate_directories:
+      - "/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/"
+      - "/Users/anarojas/.pico-sdk/ninja/v1.13.2/"
+      - "/Users/anarojas/.pico-sdk/cmake/v4.3.4/bin/"
+      - "/usr/bin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Library/TeX/texbin/"
+      - "/usr/local/share/dotnet/"
+      - "/Users/anarojas/.dotnet/tools/"
+    searched_directories:
+      - "/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/arm-none-eabi-dlltool"
+      - "/Users/anarojas/.pico-sdk/ninja/v1.13.2/arm-none-eabi-dlltool"
+      - "/Users/anarojas/.pico-sdk/cmake/v4.3.4/bin/arm-none-eabi-dlltool"
+      - "/usr/bin/arm-none-eabi-dlltool"
+      - "/usr/local/bin/arm-none-eabi-dlltool"
+      - "/System/Cryptexes/App/usr/bin/arm-none-eabi-dlltool"
+      - "/bin/arm-none-eabi-dlltool"
+      - "/usr/sbin/arm-none-eabi-dlltool"
+      - "/sbin/arm-none-eabi-dlltool"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/arm-none-eabi-dlltool"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/arm-none-eabi-dlltool"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/arm-none-eabi-dlltool"
+      - "/Library/Apple/usr/bin/arm-none-eabi-dlltool"
+      - "/Library/TeX/texbin/arm-none-eabi-dlltool"
+      - "/usr/local/share/dotnet/arm-none-eabi-dlltool"
+      - "/Users/anarojas/.dotnet/tools/arm-none-eabi-dlltool"
+      - "/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/dlltool"
+      - "/Users/anarojas/.pico-sdk/ninja/v1.13.2/dlltool"
+      - "/Users/anarojas/.pico-sdk/cmake/v4.3.4/bin/dlltool"
+      - "/usr/bin/dlltool"
+      - "/usr/local/bin/dlltool"
+      - "/System/Cryptexes/App/usr/bin/dlltool"
+      - "/bin/dlltool"
+      - "/usr/sbin/dlltool"
+      - "/sbin/dlltool"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/dlltool"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/dlltool"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/dlltool"
+      - "/Library/Apple/usr/bin/dlltool"
+      - "/Library/TeX/texbin/dlltool"
+      - "/usr/local/share/dotnet/dlltool"
+      - "/Users/anarojas/.dotnet/tools/dlltool"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/Users/anarojas/.pico-sdk/ninja/v1.13.2"
+        - "/Users/anarojas/.pico-sdk/cmake/v4.3.4/bin"
+        - "/usr/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Library/TeX/texbin"
+        - "/usr/local/share/dotnet"
+        - "~/.dotnet/tools"
+      CMAKE_FIND_ROOT_PATH: "/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/Users/anarojas/.pico-sdk/cmake/v4.3.4/CMake.app/Contents/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/Users/anarojas/.pico-sdk/cmake/v4.3.4/CMake.app/Contents/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:31 (project)"
+    mode: "program"
+    variable: "CMAKE_ADDR2LINE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-none-eabi-addr2line"
+      - "addr2line"
+    candidate_directories:
+      - "/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/"
+      - "/Users/anarojas/.pico-sdk/ninja/v1.13.2/"
+      - "/Users/anarojas/.pico-sdk/cmake/v4.3.4/bin/"
+      - "/usr/bin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Library/TeX/texbin/"
+      - "/usr/local/share/dotnet/"
+      - "/Users/anarojas/.dotnet/tools/"
+    found: "/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/arm-none-eabi-addr2line"
+    search_context:
+      ENV{PATH}:
+        - "/Users/anarojas/.pico-sdk/ninja/v1.13.2"
+        - "/Users/anarojas/.pico-sdk/cmake/v4.3.4/bin"
+        - "/usr/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Library/TeX/texbin"
+        - "/usr/local/share/dotnet"
+        - "~/.dotnet/tools"
+      CMAKE_FIND_ROOT_PATH: "/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/Users/anarojas/.pico-sdk/cmake/v4.3.4/CMake.app/Contents/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/Users/anarojas/.pico-sdk/cmake/v4.3.4/CMake.app/Contents/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:31 (project)"
+    mode: "program"
+    variable: "CMAKE_TAPI"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-none-eabi-tapi"
+      - "tapi"
+    candidate_directories:
+      - "/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/"
+      - "/Users/anarojas/.pico-sdk/ninja/v1.13.2/"
+      - "/Users/anarojas/.pico-sdk/cmake/v4.3.4/bin/"
+      - "/usr/bin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Library/TeX/texbin/"
+      - "/usr/local/share/dotnet/"
+      - "/Users/anarojas/.dotnet/tools/"
+    searched_directories:
+      - "/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/arm-none-eabi-tapi"
+      - "/Users/anarojas/.pico-sdk/ninja/v1.13.2/arm-none-eabi-tapi"
+      - "/Users/anarojas/.pico-sdk/cmake/v4.3.4/bin/arm-none-eabi-tapi"
+      - "/usr/bin/arm-none-eabi-tapi"
+      - "/usr/local/bin/arm-none-eabi-tapi"
+      - "/System/Cryptexes/App/usr/bin/arm-none-eabi-tapi"
+      - "/bin/arm-none-eabi-tapi"
+      - "/usr/sbin/arm-none-eabi-tapi"
+      - "/sbin/arm-none-eabi-tapi"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/arm-none-eabi-tapi"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/arm-none-eabi-tapi"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/arm-none-eabi-tapi"
+      - "/Library/Apple/usr/bin/arm-none-eabi-tapi"
+      - "/Library/TeX/texbin/arm-none-eabi-tapi"
+      - "/usr/local/share/dotnet/arm-none-eabi-tapi"
+      - "/Users/anarojas/.dotnet/tools/arm-none-eabi-tapi"
+      - "/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/tapi"
+      - "/Users/anarojas/.pico-sdk/ninja/v1.13.2/tapi"
+      - "/Users/anarojas/.pico-sdk/cmake/v4.3.4/bin/tapi"
+      - "/usr/bin/tapi"
+      - "/usr/local/bin/tapi"
+      - "/System/Cryptexes/App/usr/bin/tapi"
+      - "/bin/tapi"
+      - "/usr/sbin/tapi"
+      - "/sbin/tapi"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/tapi"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/tapi"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/tapi"
+      - "/Library/Apple/usr/bin/tapi"
+      - "/Library/TeX/texbin/tapi"
+      - "/usr/local/share/dotnet/tapi"
+      - "/Users/anarojas/.dotnet/tools/tapi"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/Users/anarojas/.pico-sdk/ninja/v1.13.2"
+        - "/Users/anarojas/.pico-sdk/cmake/v4.3.4/bin"
+        - "/usr/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Library/TeX/texbin"
+        - "/usr/local/share/dotnet"
+        - "~/.dotnet/tools"
+      CMAKE_FIND_ROOT_PATH: "/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/Users/anarojas/.pico-sdk/cmake/v4.3.4/CMake.app/Contents/share/cmake-4.3/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
+      - "/Users/anarojas/.pico-sdk/cmake/v4.3.4/CMake.app/Contents/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
+      - "CMakeLists.txt:31 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER_AR"
+    description: "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-none-eabi-gcc-ar-13.2"
+      - "arm-none-eabi-gcc-ar-13"
+      - "arm-none-eabi-gcc-ar13"
+      - "arm-none-eabi-gcc-ar"
+    candidate_directories:
+      - "/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/"
+      - "/Users/anarojas/.pico-sdk/ninja/v1.13.2/"
+      - "/Users/anarojas/.pico-sdk/cmake/v4.3.4/bin/"
+      - "/usr/bin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Library/TeX/texbin/"
+      - "/usr/local/share/dotnet/"
+      - "/Users/anarojas/.dotnet/tools/"
+    searched_directories:
+      - "/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/arm-none-eabi-gcc-ar-13.2"
+      - "/Users/anarojas/.pico-sdk/ninja/v1.13.2/arm-none-eabi-gcc-ar-13.2"
+      - "/Users/anarojas/.pico-sdk/cmake/v4.3.4/bin/arm-none-eabi-gcc-ar-13.2"
+      - "/usr/bin/arm-none-eabi-gcc-ar-13.2"
+      - "/usr/local/bin/arm-none-eabi-gcc-ar-13.2"
+      - "/System/Cryptexes/App/usr/bin/arm-none-eabi-gcc-ar-13.2"
+      - "/bin/arm-none-eabi-gcc-ar-13.2"
+      - "/usr/sbin/arm-none-eabi-gcc-ar-13.2"
+      - "/sbin/arm-none-eabi-gcc-ar-13.2"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/arm-none-eabi-gcc-ar-13.2"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/arm-none-eabi-gcc-ar-13.2"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/arm-none-eabi-gcc-ar-13.2"
+      - "/Library/Apple/usr/bin/arm-none-eabi-gcc-ar-13.2"
+      - "/Library/TeX/texbin/arm-none-eabi-gcc-ar-13.2"
+      - "/usr/local/share/dotnet/arm-none-eabi-gcc-ar-13.2"
+      - "/Users/anarojas/.dotnet/tools/arm-none-eabi-gcc-ar-13.2"
+      - "/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/arm-none-eabi-gcc-ar-13"
+      - "/Users/anarojas/.pico-sdk/ninja/v1.13.2/arm-none-eabi-gcc-ar-13"
+      - "/Users/anarojas/.pico-sdk/cmake/v4.3.4/bin/arm-none-eabi-gcc-ar-13"
+      - "/usr/bin/arm-none-eabi-gcc-ar-13"
+      - "/usr/local/bin/arm-none-eabi-gcc-ar-13"
+      - "/System/Cryptexes/App/usr/bin/arm-none-eabi-gcc-ar-13"
+      - "/bin/arm-none-eabi-gcc-ar-13"
+      - "/usr/sbin/arm-none-eabi-gcc-ar-13"
+      - "/sbin/arm-none-eabi-gcc-ar-13"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/arm-none-eabi-gcc-ar-13"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/arm-none-eabi-gcc-ar-13"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/arm-none-eabi-gcc-ar-13"
+      - "/Library/Apple/usr/bin/arm-none-eabi-gcc-ar-13"
+      - "/Library/TeX/texbin/arm-none-eabi-gcc-ar-13"
+      - "/usr/local/share/dotnet/arm-none-eabi-gcc-ar-13"
+      - "/Users/anarojas/.dotnet/tools/arm-none-eabi-gcc-ar-13"
+      - "/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/arm-none-eabi-gcc-ar13"
+      - "/Users/anarojas/.pico-sdk/ninja/v1.13.2/arm-none-eabi-gcc-ar13"
+      - "/Users/anarojas/.pico-sdk/cmake/v4.3.4/bin/arm-none-eabi-gcc-ar13"
+      - "/usr/bin/arm-none-eabi-gcc-ar13"
+      - "/usr/local/bin/arm-none-eabi-gcc-ar13"
+      - "/System/Cryptexes/App/usr/bin/arm-none-eabi-gcc-ar13"
+      - "/bin/arm-none-eabi-gcc-ar13"
+      - "/usr/sbin/arm-none-eabi-gcc-ar13"
+      - "/sbin/arm-none-eabi-gcc-ar13"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/arm-none-eabi-gcc-ar13"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/arm-none-eabi-gcc-ar13"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/arm-none-eabi-gcc-ar13"
+      - "/Library/Apple/usr/bin/arm-none-eabi-gcc-ar13"
+      - "/Library/TeX/texbin/arm-none-eabi-gcc-ar13"
+      - "/usr/local/share/dotnet/arm-none-eabi-gcc-ar13"
+      - "/Users/anarojas/.dotnet/tools/arm-none-eabi-gcc-ar13"
+    found: "/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/arm-none-eabi-gcc-ar"
+    search_context:
+      ENV{PATH}:
+        - "/Users/anarojas/.pico-sdk/ninja/v1.13.2"
+        - "/Users/anarojas/.pico-sdk/cmake/v4.3.4/bin"
+        - "/usr/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Library/TeX/texbin"
+        - "/usr/local/share/dotnet"
+        - "~/.dotnet/tools"
+      CMAKE_FIND_ROOT_PATH: "/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/Users/anarojas/.pico-sdk/cmake/v4.3.4/CMake.app/Contents/share/cmake-4.3/Modules/Compiler/GNU-FindBinUtils.cmake:30 (find_program)"
+      - "/Users/anarojas/.pico-sdk/cmake/v4.3.4/CMake.app/Contents/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
+      - "CMakeLists.txt:31 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER_RANLIB"
+    description: "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-none-eabi-gcc-ranlib-13.2"
+      - "arm-none-eabi-gcc-ranlib-13"
+      - "arm-none-eabi-gcc-ranlib13"
+      - "arm-none-eabi-gcc-ranlib"
+    candidate_directories:
+      - "/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/"
+      - "/Users/anarojas/.pico-sdk/ninja/v1.13.2/"
+      - "/Users/anarojas/.pico-sdk/cmake/v4.3.4/bin/"
+      - "/usr/bin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Library/TeX/texbin/"
+      - "/usr/local/share/dotnet/"
+      - "/Users/anarojas/.dotnet/tools/"
+    searched_directories:
+      - "/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/arm-none-eabi-gcc-ranlib-13.2"
+      - "/Users/anarojas/.pico-sdk/ninja/v1.13.2/arm-none-eabi-gcc-ranlib-13.2"
+      - "/Users/anarojas/.pico-sdk/cmake/v4.3.4/bin/arm-none-eabi-gcc-ranlib-13.2"
+      - "/usr/bin/arm-none-eabi-gcc-ranlib-13.2"
+      - "/usr/local/bin/arm-none-eabi-gcc-ranlib-13.2"
+      - "/System/Cryptexes/App/usr/bin/arm-none-eabi-gcc-ranlib-13.2"
+      - "/bin/arm-none-eabi-gcc-ranlib-13.2"
+      - "/usr/sbin/arm-none-eabi-gcc-ranlib-13.2"
+      - "/sbin/arm-none-eabi-gcc-ranlib-13.2"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/arm-none-eabi-gcc-ranlib-13.2"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/arm-none-eabi-gcc-ranlib-13.2"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/arm-none-eabi-gcc-ranlib-13.2"
+      - "/Library/Apple/usr/bin/arm-none-eabi-gcc-ranlib-13.2"
+      - "/Library/TeX/texbin/arm-none-eabi-gcc-ranlib-13.2"
+      - "/usr/local/share/dotnet/arm-none-eabi-gcc-ranlib-13.2"
+      - "/Users/anarojas/.dotnet/tools/arm-none-eabi-gcc-ranlib-13.2"
+      - "/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/arm-none-eabi-gcc-ranlib-13"
+      - "/Users/anarojas/.pico-sdk/ninja/v1.13.2/arm-none-eabi-gcc-ranlib-13"
+      - "/Users/anarojas/.pico-sdk/cmake/v4.3.4/bin/arm-none-eabi-gcc-ranlib-13"
+      - "/usr/bin/arm-none-eabi-gcc-ranlib-13"
+      - "/usr/local/bin/arm-none-eabi-gcc-ranlib-13"
+      - "/System/Cryptexes/App/usr/bin/arm-none-eabi-gcc-ranlib-13"
+      - "/bin/arm-none-eabi-gcc-ranlib-13"
+      - "/usr/sbin/arm-none-eabi-gcc-ranlib-13"
+      - "/sbin/arm-none-eabi-gcc-ranlib-13"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/arm-none-eabi-gcc-ranlib-13"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/arm-none-eabi-gcc-ranlib-13"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/arm-none-eabi-gcc-ranlib-13"
+      - "/Library/Apple/usr/bin/arm-none-eabi-gcc-ranlib-13"
+      - "/Library/TeX/texbin/arm-none-eabi-gcc-ranlib-13"
+      - "/usr/local/share/dotnet/arm-none-eabi-gcc-ranlib-13"
+      - "/Users/anarojas/.dotnet/tools/arm-none-eabi-gcc-ranlib-13"
+      - "/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/arm-none-eabi-gcc-ranlib13"
+      - "/Users/anarojas/.pico-sdk/ninja/v1.13.2/arm-none-eabi-gcc-ranlib13"
+      - "/Users/anarojas/.pico-sdk/cmake/v4.3.4/bin/arm-none-eabi-gcc-ranlib13"
+      - "/usr/bin/arm-none-eabi-gcc-ranlib13"
+      - "/usr/local/bin/arm-none-eabi-gcc-ranlib13"
+      - "/System/Cryptexes/App/usr/bin/arm-none-eabi-gcc-ranlib13"
+      - "/bin/arm-none-eabi-gcc-ranlib13"
+      - "/usr/sbin/arm-none-eabi-gcc-ranlib13"
+      - "/sbin/arm-none-eabi-gcc-ranlib13"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/arm-none-eabi-gcc-ranlib13"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/arm-none-eabi-gcc-ranlib13"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/arm-none-eabi-gcc-ranlib13"
+      - "/Library/Apple/usr/bin/arm-none-eabi-gcc-ranlib13"
+      - "/Library/TeX/texbin/arm-none-eabi-gcc-ranlib13"
+      - "/usr/local/share/dotnet/arm-none-eabi-gcc-ranlib13"
+      - "/Users/anarojas/.dotnet/tools/arm-none-eabi-gcc-ranlib13"
+    found: "/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/arm-none-eabi-gcc-ranlib"
+    search_context:
+      ENV{PATH}:
+        - "/Users/anarojas/.pico-sdk/ninja/v1.13.2"
+        - "/Users/anarojas/.pico-sdk/cmake/v4.3.4/bin"
+        - "/usr/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Library/TeX/texbin"
+        - "/usr/local/share/dotnet"
+        - "~/.dotnet/tools"
+      CMAKE_FIND_ROOT_PATH: "/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/Users/anarojas/.pico-sdk/cmake/v4.3.4/CMake.app/Contents/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:468 (find_file)"
+      - "/Users/anarojas/.pico-sdk/cmake/v4.3.4/CMake.app/Contents/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:506 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/Users/anarojas/.pico-sdk/cmake/v4.3.4/CMake.app/Contents/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/Users/anarojas/.pico-sdk/cmake/v4.3.4/CMake.app/Contents/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/Users/anarojas/.pico-sdk/cmake/v4.3.4/CMake.app/Contents/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:31 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "/Users/anarojas/.pico-sdk/cmake/v4.3.4/CMake.app/Contents/share/cmake-4.3/Modules/"
+      - "/Users/anarojas/.pico-sdk/sdk/2.3.0/cmake/"
+    found: "/Users/anarojas/.pico-sdk/cmake/v4.3.4/CMake.app/Contents/share/cmake-4.3/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "/Users/anarojas/.pico-sdk/ninja/v1.13.2"
+        - "/Users/anarojas/.pico-sdk/cmake/v4.3.4/bin"
+        - "/usr/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Library/TeX/texbin"
+        - "/usr/local/share/dotnet"
+        - "~/.dotnet/tools"
+      CMAKE_FIND_ROOT_PATH: "/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/Users/anarojas/.pico-sdk/cmake/v4.3.4/CMake.app/Contents/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/Users/anarojas/.pico-sdk/cmake/v4.3.4/CMake.app/Contents/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/Users/anarojas/.pico-sdk/cmake/v4.3.4/CMake.app/Contents/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:31 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: /Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/arm-none-eabi-g++ 
+      Build flags: -mcpu=cortex-m33;-mthumb;-march=armv8-m.main+fp+dsp;-mcmse;-mfloat-abi=softfp
+      Id flags:  
+      
+      The output was:
+      1
+      /Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/bin/ld: /Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/libc.a(libc_a-exit.o): in function `exit':
+      exit.c:(.text.exit+0x14): undefined reference to `_exit'
+      /Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/bin/ld: /Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/libc.a(libc_a-closer.o): in function `_close_r':
+      closer.c:(.text._close_r+0xc): undefined reference to `_close'
+      /Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/bin/ld: /Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/libc.a(libc_a-lseekr.o): in function `_lseek_r':
+      lseekr.c:(.text._lseek_r+0x14): undefined reference to `_lseek'
+      /Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/bin/ld: /Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/libc.a(libc_a-readr.o): in function `_read_r':
+      readr.c:(.text._read_r+0x14): undefined reference to `_read'
+      /Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/bin/ld: /Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/libc.a(libc_a-sbrkr.o): in function `_sbrk_r':
+      sbrkr.c:(.text._sbrk_r+0xc): undefined reference to `_sbrk'
+      /Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/bin/ld: /Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/libc.a(libc_a-writer.o): in function `_write_r':
+      writer.c:(.text._write_r+0x14): undefined reference to `_write'
+      collect2: error: ld returned 1 exit status
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/Users/anarojas/.pico-sdk/cmake/v4.3.4/CMake.app/Contents/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:468 (find_file)"
+      - "/Users/anarojas/.pico-sdk/cmake/v4.3.4/CMake.app/Contents/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:506 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/Users/anarojas/.pico-sdk/cmake/v4.3.4/CMake.app/Contents/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/Users/anarojas/.pico-sdk/cmake/v4.3.4/CMake.app/Contents/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/Users/anarojas/.pico-sdk/cmake/v4.3.4/CMake.app/Contents/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:31 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "/Users/anarojas/.pico-sdk/cmake/v4.3.4/CMake.app/Contents/share/cmake-4.3/Modules/"
+      - "/Users/anarojas/.pico-sdk/sdk/2.3.0/cmake/"
+    found: "/Users/anarojas/.pico-sdk/cmake/v4.3.4/CMake.app/Contents/share/cmake-4.3/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "/Users/anarojas/.pico-sdk/ninja/v1.13.2"
+        - "/Users/anarojas/.pico-sdk/cmake/v4.3.4/bin"
+        - "/usr/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Library/TeX/texbin"
+        - "/usr/local/share/dotnet"
+        - "~/.dotnet/tools"
+      CMAKE_FIND_ROOT_PATH: "/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/Users/anarojas/.pico-sdk/cmake/v4.3.4/CMake.app/Contents/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/Users/anarojas/.pico-sdk/cmake/v4.3.4/CMake.app/Contents/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/Users/anarojas/.pico-sdk/cmake/v4.3.4/CMake.app/Contents/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:31 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/arm-none-eabi-g++ 
+      Build flags: -mcpu=cortex-m33;-mthumb;-march=armv8-m.main+fp+dsp;-mcmse;-mfloat-abi=softfp
+      Id flags: -c 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+      
+      The CXX compiler identification is GNU, found in:
+        /Users/anarojas/Desktop/SE1_P4_EQ3/build/CMakeFiles/4.3.4/CompilerIdCXX/CMakeCXXCompilerId.o
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/Users/anarojas/.pico-sdk/cmake/v4.3.4/CMake.app/Contents/share/cmake-4.3/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
+      - "/Users/anarojas/.pico-sdk/cmake/v4.3.4/CMake.app/Contents/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:31 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_AR"
+    description: "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-none-eabi-gcc-ar-13.2"
+      - "arm-none-eabi-gcc-ar-13"
+      - "arm-none-eabi-gcc-ar13"
+      - "arm-none-eabi-gcc-ar"
+    candidate_directories:
+      - "/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/"
+      - "/Users/anarojas/.pico-sdk/ninja/v1.13.2/"
+      - "/Users/anarojas/.pico-sdk/cmake/v4.3.4/bin/"
+      - "/usr/bin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Library/TeX/texbin/"
+      - "/usr/local/share/dotnet/"
+      - "/Users/anarojas/.dotnet/tools/"
+    searched_directories:
+      - "/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/arm-none-eabi-gcc-ar-13.2"
+      - "/Users/anarojas/.pico-sdk/ninja/v1.13.2/arm-none-eabi-gcc-ar-13.2"
+      - "/Users/anarojas/.pico-sdk/cmake/v4.3.4/bin/arm-none-eabi-gcc-ar-13.2"
+      - "/usr/bin/arm-none-eabi-gcc-ar-13.2"
+      - "/usr/local/bin/arm-none-eabi-gcc-ar-13.2"
+      - "/System/Cryptexes/App/usr/bin/arm-none-eabi-gcc-ar-13.2"
+      - "/bin/arm-none-eabi-gcc-ar-13.2"
+      - "/usr/sbin/arm-none-eabi-gcc-ar-13.2"
+      - "/sbin/arm-none-eabi-gcc-ar-13.2"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/arm-none-eabi-gcc-ar-13.2"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/arm-none-eabi-gcc-ar-13.2"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/arm-none-eabi-gcc-ar-13.2"
+      - "/Library/Apple/usr/bin/arm-none-eabi-gcc-ar-13.2"
+      - "/Library/TeX/texbin/arm-none-eabi-gcc-ar-13.2"
+      - "/usr/local/share/dotnet/arm-none-eabi-gcc-ar-13.2"
+      - "/Users/anarojas/.dotnet/tools/arm-none-eabi-gcc-ar-13.2"
+      - "/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/arm-none-eabi-gcc-ar-13"
+      - "/Users/anarojas/.pico-sdk/ninja/v1.13.2/arm-none-eabi-gcc-ar-13"
+      - "/Users/anarojas/.pico-sdk/cmake/v4.3.4/bin/arm-none-eabi-gcc-ar-13"
+      - "/usr/bin/arm-none-eabi-gcc-ar-13"
+      - "/usr/local/bin/arm-none-eabi-gcc-ar-13"
+      - "/System/Cryptexes/App/usr/bin/arm-none-eabi-gcc-ar-13"
+      - "/bin/arm-none-eabi-gcc-ar-13"
+      - "/usr/sbin/arm-none-eabi-gcc-ar-13"
+      - "/sbin/arm-none-eabi-gcc-ar-13"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/arm-none-eabi-gcc-ar-13"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/arm-none-eabi-gcc-ar-13"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/arm-none-eabi-gcc-ar-13"
+      - "/Library/Apple/usr/bin/arm-none-eabi-gcc-ar-13"
+      - "/Library/TeX/texbin/arm-none-eabi-gcc-ar-13"
+      - "/usr/local/share/dotnet/arm-none-eabi-gcc-ar-13"
+      - "/Users/anarojas/.dotnet/tools/arm-none-eabi-gcc-ar-13"
+      - "/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/arm-none-eabi-gcc-ar13"
+      - "/Users/anarojas/.pico-sdk/ninja/v1.13.2/arm-none-eabi-gcc-ar13"
+      - "/Users/anarojas/.pico-sdk/cmake/v4.3.4/bin/arm-none-eabi-gcc-ar13"
+      - "/usr/bin/arm-none-eabi-gcc-ar13"
+      - "/usr/local/bin/arm-none-eabi-gcc-ar13"
+      - "/System/Cryptexes/App/usr/bin/arm-none-eabi-gcc-ar13"
+      - "/bin/arm-none-eabi-gcc-ar13"
+      - "/usr/sbin/arm-none-eabi-gcc-ar13"
+      - "/sbin/arm-none-eabi-gcc-ar13"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/arm-none-eabi-gcc-ar13"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/arm-none-eabi-gcc-ar13"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/arm-none-eabi-gcc-ar13"
+      - "/Library/Apple/usr/bin/arm-none-eabi-gcc-ar13"
+      - "/Library/TeX/texbin/arm-none-eabi-gcc-ar13"
+      - "/usr/local/share/dotnet/arm-none-eabi-gcc-ar13"
+      - "/Users/anarojas/.dotnet/tools/arm-none-eabi-gcc-ar13"
+    found: "/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/arm-none-eabi-gcc-ar"
+    search_context:
+      ENV{PATH}:
+        - "/Users/anarojas/.pico-sdk/ninja/v1.13.2"
+        - "/Users/anarojas/.pico-sdk/cmake/v4.3.4/bin"
+        - "/usr/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Library/TeX/texbin"
+        - "/usr/local/share/dotnet"
+        - "~/.dotnet/tools"
+      CMAKE_FIND_ROOT_PATH: "/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/Users/anarojas/.pico-sdk/cmake/v4.3.4/CMake.app/Contents/share/cmake-4.3/Modules/Compiler/GNU-FindBinUtils.cmake:30 (find_program)"
+      - "/Users/anarojas/.pico-sdk/cmake/v4.3.4/CMake.app/Contents/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:31 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_RANLIB"
+    description: "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-none-eabi-gcc-ranlib-13.2"
+      - "arm-none-eabi-gcc-ranlib-13"
+      - "arm-none-eabi-gcc-ranlib13"
+      - "arm-none-eabi-gcc-ranlib"
+    candidate_directories:
+      - "/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/"
+      - "/Users/anarojas/.pico-sdk/ninja/v1.13.2/"
+      - "/Users/anarojas/.pico-sdk/cmake/v4.3.4/bin/"
+      - "/usr/bin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Library/TeX/texbin/"
+      - "/usr/local/share/dotnet/"
+      - "/Users/anarojas/.dotnet/tools/"
+    searched_directories:
+      - "/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/arm-none-eabi-gcc-ranlib-13.2"
+      - "/Users/anarojas/.pico-sdk/ninja/v1.13.2/arm-none-eabi-gcc-ranlib-13.2"
+      - "/Users/anarojas/.pico-sdk/cmake/v4.3.4/bin/arm-none-eabi-gcc-ranlib-13.2"
+      - "/usr/bin/arm-none-eabi-gcc-ranlib-13.2"
+      - "/usr/local/bin/arm-none-eabi-gcc-ranlib-13.2"
+      - "/System/Cryptexes/App/usr/bin/arm-none-eabi-gcc-ranlib-13.2"
+      - "/bin/arm-none-eabi-gcc-ranlib-13.2"
+      - "/usr/sbin/arm-none-eabi-gcc-ranlib-13.2"
+      - "/sbin/arm-none-eabi-gcc-ranlib-13.2"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/arm-none-eabi-gcc-ranlib-13.2"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/arm-none-eabi-gcc-ranlib-13.2"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/arm-none-eabi-gcc-ranlib-13.2"
+      - "/Library/Apple/usr/bin/arm-none-eabi-gcc-ranlib-13.2"
+      - "/Library/TeX/texbin/arm-none-eabi-gcc-ranlib-13.2"
+      - "/usr/local/share/dotnet/arm-none-eabi-gcc-ranlib-13.2"
+      - "/Users/anarojas/.dotnet/tools/arm-none-eabi-gcc-ranlib-13.2"
+      - "/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/arm-none-eabi-gcc-ranlib-13"
+      - "/Users/anarojas/.pico-sdk/ninja/v1.13.2/arm-none-eabi-gcc-ranlib-13"
+      - "/Users/anarojas/.pico-sdk/cmake/v4.3.4/bin/arm-none-eabi-gcc-ranlib-13"
+      - "/usr/bin/arm-none-eabi-gcc-ranlib-13"
+      - "/usr/local/bin/arm-none-eabi-gcc-ranlib-13"
+      - "/System/Cryptexes/App/usr/bin/arm-none-eabi-gcc-ranlib-13"
+      - "/bin/arm-none-eabi-gcc-ranlib-13"
+      - "/usr/sbin/arm-none-eabi-gcc-ranlib-13"
+      - "/sbin/arm-none-eabi-gcc-ranlib-13"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/arm-none-eabi-gcc-ranlib-13"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/arm-none-eabi-gcc-ranlib-13"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/arm-none-eabi-gcc-ranlib-13"
+      - "/Library/Apple/usr/bin/arm-none-eabi-gcc-ranlib-13"
+      - "/Library/TeX/texbin/arm-none-eabi-gcc-ranlib-13"
+      - "/usr/local/share/dotnet/arm-none-eabi-gcc-ranlib-13"
+      - "/Users/anarojas/.dotnet/tools/arm-none-eabi-gcc-ranlib-13"
+      - "/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/arm-none-eabi-gcc-ranlib13"
+      - "/Users/anarojas/.pico-sdk/ninja/v1.13.2/arm-none-eabi-gcc-ranlib13"
+      - "/Users/anarojas/.pico-sdk/cmake/v4.3.4/bin/arm-none-eabi-gcc-ranlib13"
+      - "/usr/bin/arm-none-eabi-gcc-ranlib13"
+      - "/usr/local/bin/arm-none-eabi-gcc-ranlib13"
+      - "/System/Cryptexes/App/usr/bin/arm-none-eabi-gcc-ranlib13"
+      - "/bin/arm-none-eabi-gcc-ranlib13"
+      - "/usr/sbin/arm-none-eabi-gcc-ranlib13"
+      - "/sbin/arm-none-eabi-gcc-ranlib13"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/arm-none-eabi-gcc-ranlib13"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/arm-none-eabi-gcc-ranlib13"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/arm-none-eabi-gcc-ranlib13"
+      - "/Library/Apple/usr/bin/arm-none-eabi-gcc-ranlib13"
+      - "/Library/TeX/texbin/arm-none-eabi-gcc-ranlib13"
+      - "/usr/local/share/dotnet/arm-none-eabi-gcc-ranlib13"
+      - "/Users/anarojas/.dotnet/tools/arm-none-eabi-gcc-ranlib13"
+    found: "/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/arm-none-eabi-gcc-ranlib"
+    search_context:
+      ENV{PATH}:
+        - "/Users/anarojas/.pico-sdk/ninja/v1.13.2"
+        - "/Users/anarojas/.pico-sdk/cmake/v4.3.4/bin"
+        - "/usr/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Library/TeX/texbin"
+        - "/usr/local/share/dotnet"
+        - "~/.dotnet/tools"
+      CMAKE_FIND_ROOT_PATH: "/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/Users/anarojas/.pico-sdk/cmake/v4.3.4/CMake.app/Contents/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:1296 (message)"
+      - "/Users/anarojas/.pico-sdk/cmake/v4.3.4/CMake.app/Contents/share/cmake-4.3/Modules/CMakeDetermineASMCompiler.cmake:170 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "CMakeLists.txt:31 (project)"
+    message: |
+      Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
+      arm-none-eabi-gcc (Arm GNU Toolchain 13.2.rel1 (Build arm-13.7)) 13.2.1 20231009
+      Copyright (C) 2023 Free Software Foundation, Inc.
+      This is free software; see the source for copying conditions.  There is NO
+      warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/Users/anarojas/.pico-sdk/cmake/v4.3.4/CMake.app/Contents/share/cmake-4.3/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
+      - "/Users/anarojas/.pico-sdk/cmake/v4.3.4/CMake.app/Contents/share/cmake-4.3/Modules/CMakeDetermineASMCompiler.cmake:268 (include)"
+      - "CMakeLists.txt:31 (project)"
+    mode: "program"
+    variable: "CMAKE_ASM_COMPILER_AR"
+    description: "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-none-eabi-gcc-ar-"
+      - "arm-none-eabi-gcc-ar-"
+      - "arm-none-eabi-gcc-ar"
+      - "arm-none-eabi-gcc-ar"
+    candidate_directories:
+      - "/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/"
+      - "/Users/anarojas/.pico-sdk/ninja/v1.13.2/"
+      - "/Users/anarojas/.pico-sdk/cmake/v4.3.4/bin/"
+      - "/usr/bin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Library/TeX/texbin/"
+      - "/usr/local/share/dotnet/"
+      - "/Users/anarojas/.dotnet/tools/"
+    searched_directories:
+      - "/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/arm-none-eabi-gcc-ar-"
+      - "/Users/anarojas/.pico-sdk/ninja/v1.13.2/arm-none-eabi-gcc-ar-"
+      - "/Users/anarojas/.pico-sdk/cmake/v4.3.4/bin/arm-none-eabi-gcc-ar-"
+      - "/usr/bin/arm-none-eabi-gcc-ar-"
+      - "/usr/local/bin/arm-none-eabi-gcc-ar-"
+      - "/System/Cryptexes/App/usr/bin/arm-none-eabi-gcc-ar-"
+      - "/bin/arm-none-eabi-gcc-ar-"
+      - "/usr/sbin/arm-none-eabi-gcc-ar-"
+      - "/sbin/arm-none-eabi-gcc-ar-"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/arm-none-eabi-gcc-ar-"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/arm-none-eabi-gcc-ar-"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/arm-none-eabi-gcc-ar-"
+      - "/Library/Apple/usr/bin/arm-none-eabi-gcc-ar-"
+      - "/Library/TeX/texbin/arm-none-eabi-gcc-ar-"
+      - "/usr/local/share/dotnet/arm-none-eabi-gcc-ar-"
+      - "/Users/anarojas/.dotnet/tools/arm-none-eabi-gcc-ar-"
+      - "/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/arm-none-eabi-gcc-ar-"
+      - "/Users/anarojas/.pico-sdk/ninja/v1.13.2/arm-none-eabi-gcc-ar-"
+      - "/Users/anarojas/.pico-sdk/cmake/v4.3.4/bin/arm-none-eabi-gcc-ar-"
+      - "/usr/bin/arm-none-eabi-gcc-ar-"
+      - "/usr/local/bin/arm-none-eabi-gcc-ar-"
+      - "/System/Cryptexes/App/usr/bin/arm-none-eabi-gcc-ar-"
+      - "/bin/arm-none-eabi-gcc-ar-"
+      - "/usr/sbin/arm-none-eabi-gcc-ar-"
+      - "/sbin/arm-none-eabi-gcc-ar-"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/arm-none-eabi-gcc-ar-"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/arm-none-eabi-gcc-ar-"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/arm-none-eabi-gcc-ar-"
+      - "/Library/Apple/usr/bin/arm-none-eabi-gcc-ar-"
+      - "/Library/TeX/texbin/arm-none-eabi-gcc-ar-"
+      - "/usr/local/share/dotnet/arm-none-eabi-gcc-ar-"
+      - "/Users/anarojas/.dotnet/tools/arm-none-eabi-gcc-ar-"
+    found: "/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/arm-none-eabi-gcc-ar"
+    search_context:
+      ENV{PATH}:
+        - "/Users/anarojas/.pico-sdk/ninja/v1.13.2"
+        - "/Users/anarojas/.pico-sdk/cmake/v4.3.4/bin"
+        - "/usr/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Library/TeX/texbin"
+        - "/usr/local/share/dotnet"
+        - "~/.dotnet/tools"
+      CMAKE_FIND_ROOT_PATH: "/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/Users/anarojas/.pico-sdk/cmake/v4.3.4/CMake.app/Contents/share/cmake-4.3/Modules/Compiler/GNU-FindBinUtils.cmake:30 (find_program)"
+      - "/Users/anarojas/.pico-sdk/cmake/v4.3.4/CMake.app/Contents/share/cmake-4.3/Modules/CMakeDetermineASMCompiler.cmake:268 (include)"
+      - "CMakeLists.txt:31 (project)"
+    mode: "program"
+    variable: "CMAKE_ASM_COMPILER_RANLIB"
+    description: "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-none-eabi-gcc-ranlib-"
+      - "arm-none-eabi-gcc-ranlib-"
+      - "arm-none-eabi-gcc-ranlib"
+      - "arm-none-eabi-gcc-ranlib"
+    candidate_directories:
+      - "/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/"
+      - "/Users/anarojas/.pico-sdk/ninja/v1.13.2/"
+      - "/Users/anarojas/.pico-sdk/cmake/v4.3.4/bin/"
+      - "/usr/bin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Library/TeX/texbin/"
+      - "/usr/local/share/dotnet/"
+      - "/Users/anarojas/.dotnet/tools/"
+    searched_directories:
+      - "/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/arm-none-eabi-gcc-ranlib-"
+      - "/Users/anarojas/.pico-sdk/ninja/v1.13.2/arm-none-eabi-gcc-ranlib-"
+      - "/Users/anarojas/.pico-sdk/cmake/v4.3.4/bin/arm-none-eabi-gcc-ranlib-"
+      - "/usr/bin/arm-none-eabi-gcc-ranlib-"
+      - "/usr/local/bin/arm-none-eabi-gcc-ranlib-"
+      - "/System/Cryptexes/App/usr/bin/arm-none-eabi-gcc-ranlib-"
+      - "/bin/arm-none-eabi-gcc-ranlib-"
+      - "/usr/sbin/arm-none-eabi-gcc-ranlib-"
+      - "/sbin/arm-none-eabi-gcc-ranlib-"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/arm-none-eabi-gcc-ranlib-"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/arm-none-eabi-gcc-ranlib-"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/arm-none-eabi-gcc-ranlib-"
+      - "/Library/Apple/usr/bin/arm-none-eabi-gcc-ranlib-"
+      - "/Library/TeX/texbin/arm-none-eabi-gcc-ranlib-"
+      - "/usr/local/share/dotnet/arm-none-eabi-gcc-ranlib-"
+      - "/Users/anarojas/.dotnet/tools/arm-none-eabi-gcc-ranlib-"
+      - "/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/arm-none-eabi-gcc-ranlib-"
+      - "/Users/anarojas/.pico-sdk/ninja/v1.13.2/arm-none-eabi-gcc-ranlib-"
+      - "/Users/anarojas/.pico-sdk/cmake/v4.3.4/bin/arm-none-eabi-gcc-ranlib-"
+      - "/usr/bin/arm-none-eabi-gcc-ranlib-"
+      - "/usr/local/bin/arm-none-eabi-gcc-ranlib-"
+      - "/System/Cryptexes/App/usr/bin/arm-none-eabi-gcc-ranlib-"
+      - "/bin/arm-none-eabi-gcc-ranlib-"
+      - "/usr/sbin/arm-none-eabi-gcc-ranlib-"
+      - "/sbin/arm-none-eabi-gcc-ranlib-"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/arm-none-eabi-gcc-ranlib-"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/arm-none-eabi-gcc-ranlib-"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/arm-none-eabi-gcc-ranlib-"
+      - "/Library/Apple/usr/bin/arm-none-eabi-gcc-ranlib-"
+      - "/Library/TeX/texbin/arm-none-eabi-gcc-ranlib-"
+      - "/usr/local/share/dotnet/arm-none-eabi-gcc-ranlib-"
+      - "/Users/anarojas/.dotnet/tools/arm-none-eabi-gcc-ranlib-"
+    found: "/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/arm-none-eabi-gcc-ranlib"
+    search_context:
+      ENV{PATH}:
+        - "/Users/anarojas/.pico-sdk/ninja/v1.13.2"
+        - "/Users/anarojas/.pico-sdk/cmake/v4.3.4/bin"
+        - "/usr/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Library/TeX/texbin"
+        - "/usr/local/share/dotnet"
+        - "~/.dotnet/tools"
+      CMAKE_FIND_ROOT_PATH: "/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Users/anarojas/.pico-sdk/cmake/v4.3.4/CMake.app/Contents/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "/Users/anarojas/.pico-sdk/cmake/v4.3.4/CMake.app/Contents/share/cmake-4.3/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:31 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/Users/anarojas/Desktop/SE1_P4_EQ3/build/CMakeFiles/CMakeScratch/TryCompile-TW3S4c"
+      binary: "/Users/anarojas/Desktop/SE1_P4_EQ3/build/CMakeFiles/CMakeScratch/TryCompile-TW3S4c"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: "-mcpu=cortex-m33 -mthumb -march=armv8-m.main+fp+dsp -mcmse -mfloat-abi=softfp"
+      CMAKE_C_FLAGS_DEBUG: "-Og -g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/anarojas/.pico-sdk/sdk/2.3.0/cmake"
+      PICO_SDK_PATH: "/Users/anarojas/.pico-sdk/sdk/2.3.0"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/anarojas/Desktop/SE1_P4_EQ3/build/CMakeFiles/CMakeScratch/TryCompile-TW3S4c'
+        
+        Run Build Command(s): /Users/anarojas/.pico-sdk/ninja/v1.13.2/ninja -v cmTC_9d8d7
+        [1/2] /Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/arm-none-eabi-gcc   -mcpu=cortex-m33 -mthumb -march=armv8-m.main+fp+dsp -mcmse -mfloat-abi=softfp  -std=gnu11   -v -o CMakeFiles/cmTC_9d8d7.dir/CMakeCCompilerABI.c.o -c /Users/anarojas/.pico-sdk/cmake/v4.3.4/CMake.app/Contents/share/cmake-4.3/Modules/CMakeCCompilerABI.c
+        Using built-in specs.
+        COLLECT_GCC=/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/arm-none-eabi-gcc
+        Target: arm-none-eabi
+        Configured with: /Volumes/data/jenkins/workspace/GNU-toolchain/arm-13/src/gcc/configure --target=arm-none-eabi --prefix=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-13/build-arm-none-eabi/install --with-gmp=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-13/build-arm-none-eabi/host-tools --with-mpfr=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-13/build-arm-none-eabi/host-tools --with-mpc=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-13/build-arm-none-eabi/host-tools --with-isl=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-13/build-arm-none-eabi/host-tools --disable-shared --disable-nls --disable-threads --disable-tls --enable-checking=release --enable-languages=c,c++,fortran --with-newlib --with-gnu-as --with-headers=yes --with-gnu-ld --with-native-system-header-dir=/include --with-sysroot=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-13/build-arm-none-eabi/install/arm-none-eabi --with-multilib-list=aprofile,rmprofile --with-pkgversion='Arm GNU Toolchain 13.2.rel1 (Build arm-13.7)' --with-bugurl=https://bugs.linaro.org/
+        Thread model: single
+        Supported LTO compression algorithms: zlib
+        gcc version 13.2.1 20231009 (Arm GNU Toolchain 13.2.rel1 (Build arm-13.7)) 
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m33' '-mthumb'  '-mcmse' '-mfloat-abi=softfp' '-std=gnu11' '-v' '-o' 'CMakeFiles/cmTC_9d8d7.dir/CMakeCCompilerABI.c.o' '-c' '-mlibarch=armv8-m.main+dsp+fp' '-march=armv8-m.main+dsp+fp' '-dumpdir' 'CMakeFiles/cmTC_9d8d7.dir/'
+         /Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../libexec/gcc/arm-none-eabi/13.2.1/cc1 -quiet -v -imultilib thumb/v8-m.main+fp/softfp -iprefix /Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/arm-none-eabi/13.2.1/ -isysroot /Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../arm-none-eabi -D__USES_INITFINI__ /Users/anarojas/.pico-sdk/cmake/v4.3.4/CMake.app/Contents/share/cmake-4.3/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_9d8d7.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mcpu=cortex-m33 -mthumb -mcmse -mfloat-abi=softfp -mlibarch=armv8-m.main+dsp+fp -march=armv8-m.main+dsp+fp -std=gnu11 -version -o /var/folders/tw/zgv_k3mj5bv_770dk1c_fhk80000gn/T//cc67pfPz.s
+        GNU C11 (Arm GNU Toolchain 13.2.rel1 (Build arm-13.7)) version 13.2.1 20231009 (arm-none-eabi)
+        	compiled by GNU C version Apple LLVM 13.0.0 (clang-1300.0.29.30), GMP version 6.2.1, MPFR version 3.1.6, MPC version 1.0.3, isl version isl-0.15-1-g835ea3a-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/13.2.1/include"
+        ignoring nonexistent directory "/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../arm-none-eabi/usr/local/include"
+        ignoring duplicate directory "/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/13.2.1/include-fixed"
+        ignoring duplicate directory "/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/include"
+        ignoring duplicate directory "/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../arm-none-eabi/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/arm-none-eabi/13.2.1/include
+         /Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/arm-none-eabi/13.2.1/include-fixed
+         /Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/include
+        End of search list.
+        Compiler executable checksum: 0824ce55b5209f9339d589ef57403827
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m33' '-mthumb'  '-mcmse' '-mfloat-abi=softfp' '-std=gnu11' '-v' '-o' 'CMakeFiles/cmTC_9d8d7.dir/CMakeCCompilerABI.c.o' '-c' '-mlibarch=armv8-m.main+dsp+fp' '-march=armv8-m.main+dsp+fp' '-dumpdir' 'CMakeFiles/cmTC_9d8d7.dir/'
+         /Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/bin/as -v -march=armv8-m.main+dsp+fp -mfloat-abi=softfp -meabi=5 -o CMakeFiles/cmTC_9d8d7.dir/CMakeCCompilerABI.c.o /var/folders/tw/zgv_k3mj5bv_770dk1c_fhk80000gn/T//cc67pfPz.s
+        GNU assembler version 2.41.0 (arm-none-eabi) using BFD version (Arm GNU Toolchain 13.2.rel1 (Build arm-13.7)) 2.41.0.20231009
+        COMPILER_PATH=/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../libexec/gcc/arm-none-eabi/13.2.1/:/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../libexec/gcc/:/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/bin/
+        LIBRARY_PATH=/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main+fp/softfp/:/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/:/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/:/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/arm-none-eabi/13.2.1/:/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/:/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/:/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../arm-none-eabi/lib/
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m33' '-mthumb'  '-mcmse' '-mfloat-abi=softfp' '-std=gnu11' '-v' '-o' 'CMakeFiles/cmTC_9d8d7.dir/CMakeCCompilerABI.c.o' '-c' '-mlibarch=armv8-m.main+dsp+fp' '-march=armv8-m.main+dsp+fp' '-dumpdir' 'CMakeFiles/cmTC_9d8d7.dir/CMakeCCompilerABI.c.'
+        [2/2] : && /Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/arm-none-eabi-gcc -mcpu=cortex-m33 -mthumb -march=armv8-m.main+fp+dsp -mcmse -mfloat-abi=softfp -Wl,--build-id=none -nostdlib  -v CMakeFiles/cmTC_9d8d7.dir/CMakeCCompilerABI.c.o -o cmTC_9d8d7.elf   && :
+        Using built-in specs.
+        COLLECT_GCC=/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/arm-none-eabi-gcc
+        COLLECT_LTO_WRAPPER=/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../libexec/gcc/arm-none-eabi/13.2.1/lto-wrapper
+        Target: arm-none-eabi
+        Configured with: /Volumes/data/jenkins/workspace/GNU-toolchain/arm-13/src/gcc/configure --target=arm-none-eabi --prefix=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-13/build-arm-none-eabi/install --with-gmp=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-13/build-arm-none-eabi/host-tools --with-mpfr=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-13/build-arm-none-eabi/host-tools --with-mpc=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-13/build-arm-none-eabi/host-tools --with-isl=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-13/build-arm-none-eabi/host-tools --disable-shared --disable-nls --disable-threads --disable-tls --enable-checking=release --enable-languages=c,c++,fortran --with-newlib --with-gnu-as --with-headers=yes --with-gnu-ld --with-native-system-header-dir=/include --with-sysroot=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-13/build-arm-none-eabi/install/arm-none-eabi --with-multilib-list=aprofile,rmprofile --with-pkgversion='Arm GNU Toolchain 13.2.rel1 (Build arm-13.7)' --with-bugurl=https://bugs.linaro.org/
+        Thread model: single
+        Supported LTO compression algorithms: zlib
+        gcc version 13.2.1 20231009 (Arm GNU Toolchain 13.2.rel1 (Build arm-13.7)) 
+        COMPILER_PATH=/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../libexec/gcc/arm-none-eabi/13.2.1/:/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../libexec/gcc/:/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/bin/
+        LIBRARY_PATH=/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main+fp/softfp/:/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/:/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/:/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/arm-none-eabi/13.2.1/:/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/:/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/:/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../arm-none-eabi/lib/
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m33' '-mthumb'  '-mcmse' '-mfloat-abi=softfp' '-nostdlib' '-v' '-o' 'cmTC_9d8d7.elf' '-mlibarch=armv8-m.main+dsp+fp' '-march=armv8-m.main+dsp+fp' '-dumpdir' 'cmTC_9d8d7.elf.'
+         /Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../libexec/gcc/arm-none-eabi/13.2.1/collect2 -plugin /Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../libexec/gcc/arm-none-eabi/13.2.1/liblto_plugin.so -plugin-opt=/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../libexec/gcc/arm-none-eabi/13.2.1/lto-wrapper -plugin-opt=-fresolution=/var/folders/tw/zgv_k3mj5bv_770dk1c_fhk80000gn/T//ccxWwVbO.res --sysroot=/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../arm-none-eabi -X -o cmTC_9d8d7.elf -L/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main+fp/softfp -L/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp -L/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp -L/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/arm-none-eabi/13.2.1 -L/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc -L/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib -L/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../arm-none-eabi/lib --build-id=none CMakeFiles/cmTC_9d8d7.dir/CMakeCCompilerABI.c.o
+        /Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/bin/ld: warning: cannot find entry symbol _start; defaulting to 00008000
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m33' '-mthumb'  '-mcmse' '-mfloat-abi=softfp' '-nostdlib' '-v' '-o' 'cmTC_9d8d7.elf' '-mlibarch=armv8-m.main+dsp+fp' '-march=armv8-m.main+dsp+fp' '-dumpdir' 'cmTC_9d8d7.elf.'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/Users/anarojas/.pico-sdk/cmake/v4.3.4/CMake.app/Contents/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:217 (message)"
+      - "/Users/anarojas/.pico-sdk/cmake/v4.3.4/CMake.app/Contents/share/cmake-4.3/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:31 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/arm-none-eabi/13.2.1/include]
+          add: [/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/arm-none-eabi/13.2.1/include-fixed]
+          add: [/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/include]
+        end of search list found
+        collapse include dir [/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/arm-none-eabi/13.2.1/include] ==> [/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/lib/gcc/arm-none-eabi/13.2.1/include]
+        collapse include dir [/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/arm-none-eabi/13.2.1/include-fixed] ==> [/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/lib/gcc/arm-none-eabi/13.2.1/include-fixed]
+        collapse include dir [/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/include] ==> [/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include]
+        implicit include dirs: [/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/lib/gcc/arm-none-eabi/13.2.1/include;/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/lib/gcc/arm-none-eabi/13.2.1/include-fixed;/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/Users/anarojas/.pico-sdk/cmake/v4.3.4/CMake.app/Contents/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "/Users/anarojas/.pico-sdk/cmake/v4.3.4/CMake.app/Contents/share/cmake-4.3/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:31 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
+        ignore line: [Change Dir: '/Users/anarojas/Desktop/SE1_P4_EQ3/build/CMakeFiles/CMakeScratch/TryCompile-TW3S4c']
+        ignore line: []
+        ignore line: [Run Build Command(s): /Users/anarojas/.pico-sdk/ninja/v1.13.2/ninja -v cmTC_9d8d7]
+        ignore line: [[1/2] /Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/arm-none-eabi-gcc   -mcpu=cortex-m33 -mthumb -march=armv8-m.main+fp+dsp -mcmse -mfloat-abi=softfp  -std=gnu11   -v -o CMakeFiles/cmTC_9d8d7.dir/CMakeCCompilerABI.c.o -c /Users/anarojas/.pico-sdk/cmake/v4.3.4/CMake.app/Contents/share/cmake-4.3/Modules/CMakeCCompilerABI.c]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/arm-none-eabi-gcc]
+        ignore line: [Target: arm-none-eabi]
+        ignore line: [Configured with: /Volumes/data/jenkins/workspace/GNU-toolchain/arm-13/src/gcc/configure --target=arm-none-eabi --prefix=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-13/build-arm-none-eabi/install --with-gmp=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-13/build-arm-none-eabi/host-tools --with-mpfr=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-13/build-arm-none-eabi/host-tools --with-mpc=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-13/build-arm-none-eabi/host-tools --with-isl=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-13/build-arm-none-eabi/host-tools --disable-shared --disable-nls --disable-threads --disable-tls --enable-checking=release --enable-languages=c,c++,fortran --with-newlib --with-gnu-as --with-headers=yes --with-gnu-ld --with-native-system-header-dir=/include --with-sysroot=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-13/build-arm-none-eabi/install/arm-none-eabi --with-multilib-list=aprofile,rmprofile --with-pkgversion='Arm GNU Toolchain 13.2.rel1 (Build arm-13.7)' --with-bugurl=https://bugs.linaro.org/]
+        ignore line: [Thread model: single]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 13.2.1 20231009 (Arm GNU Toolchain 13.2.rel1 (Build arm-13.7)) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m33' '-mthumb'  '-mcmse' '-mfloat-abi=softfp' '-std=gnu11' '-v' '-o' 'CMakeFiles/cmTC_9d8d7.dir/CMakeCCompilerABI.c.o' '-c' '-mlibarch=armv8-m.main+dsp+fp' '-march=armv8-m.main+dsp+fp' '-dumpdir' 'CMakeFiles/cmTC_9d8d7.dir/']
+        ignore line: [ /Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../libexec/gcc/arm-none-eabi/13.2.1/cc1 -quiet -v -imultilib thumb/v8-m.main+fp/softfp -iprefix /Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/arm-none-eabi/13.2.1/ -isysroot /Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../arm-none-eabi -D__USES_INITFINI__ /Users/anarojas/.pico-sdk/cmake/v4.3.4/CMake.app/Contents/share/cmake-4.3/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_9d8d7.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mcpu=cortex-m33 -mthumb -mcmse -mfloat-abi=softfp -mlibarch=armv8-m.main+dsp+fp -march=armv8-m.main+dsp+fp -std=gnu11 -version -o /var/folders/tw/zgv_k3mj5bv_770dk1c_fhk80000gn/T//cc67pfPz.s]
+        ignore line: [GNU C11 (Arm GNU Toolchain 13.2.rel1 (Build arm-13.7)) version 13.2.1 20231009 (arm-none-eabi)]
+        ignore line: [	compiled by GNU C version Apple LLVM 13.0.0 (clang-1300.0.29.30)  GMP version 6.2.1  MPFR version 3.1.6  MPC version 1.0.3  isl version isl-0.15-1-g835ea3a-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/13.2.1/include"]
+        ignore line: [ignoring nonexistent directory "/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../arm-none-eabi/usr/local/include"]
+        ignore line: [ignoring duplicate directory "/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/13.2.1/include-fixed"]
+        ignore line: [ignoring duplicate directory "/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/include"]
+        ignore line: [ignoring duplicate directory "/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../arm-none-eabi/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/arm-none-eabi/13.2.1/include]
+        ignore line: [ /Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/arm-none-eabi/13.2.1/include-fixed]
+        ignore line: [ /Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: 0824ce55b5209f9339d589ef57403827]
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m33' '-mthumb'  '-mcmse' '-mfloat-abi=softfp' '-std=gnu11' '-v' '-o' 'CMakeFiles/cmTC_9d8d7.dir/CMakeCCompilerABI.c.o' '-c' '-mlibarch=armv8-m.main+dsp+fp' '-march=armv8-m.main+dsp+fp' '-dumpdir' 'CMakeFiles/cmTC_9d8d7.dir/']
+        ignore line: [ /Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/bin/as -v -march=armv8-m.main+dsp+fp -mfloat-abi=softfp -meabi=5 -o CMakeFiles/cmTC_9d8d7.dir/CMakeCCompilerABI.c.o /var/folders/tw/zgv_k3mj5bv_770dk1c_fhk80000gn/T//cc67pfPz.s]
+        ignore line: [GNU assembler version 2.41.0 (arm-none-eabi) using BFD version (Arm GNU Toolchain 13.2.rel1 (Build arm-13.7)) 2.41.0.20231009]
+        ignore line: [COMPILER_PATH=/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../libexec/gcc/arm-none-eabi/13.2.1/:/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../libexec/gcc/:/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/bin/]
+        ignore line: [LIBRARY_PATH=/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main+fp/softfp/:/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/:/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/:/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/arm-none-eabi/13.2.1/:/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/:/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/:/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../arm-none-eabi/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m33' '-mthumb'  '-mcmse' '-mfloat-abi=softfp' '-std=gnu11' '-v' '-o' 'CMakeFiles/cmTC_9d8d7.dir/CMakeCCompilerABI.c.o' '-c' '-mlibarch=armv8-m.main+dsp+fp' '-march=armv8-m.main+dsp+fp' '-dumpdir' 'CMakeFiles/cmTC_9d8d7.dir/CMakeCCompilerABI.c.']
+        ignore line: [[2/2] : && /Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/arm-none-eabi-gcc -mcpu=cortex-m33 -mthumb -march=armv8-m.main+fp+dsp -mcmse -mfloat-abi=softfp -Wl --build-id=none -nostdlib  -v CMakeFiles/cmTC_9d8d7.dir/CMakeCCompilerABI.c.o -o cmTC_9d8d7.elf   && :]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/arm-none-eabi-gcc]
+        ignore line: [COLLECT_LTO_WRAPPER=/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../libexec/gcc/arm-none-eabi/13.2.1/lto-wrapper]
+        ignore line: [Target: arm-none-eabi]
+        ignore line: [Configured with: /Volumes/data/jenkins/workspace/GNU-toolchain/arm-13/src/gcc/configure --target=arm-none-eabi --prefix=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-13/build-arm-none-eabi/install --with-gmp=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-13/build-arm-none-eabi/host-tools --with-mpfr=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-13/build-arm-none-eabi/host-tools --with-mpc=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-13/build-arm-none-eabi/host-tools --with-isl=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-13/build-arm-none-eabi/host-tools --disable-shared --disable-nls --disable-threads --disable-tls --enable-checking=release --enable-languages=c,c++,fortran --with-newlib --with-gnu-as --with-headers=yes --with-gnu-ld --with-native-system-header-dir=/include --with-sysroot=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-13/build-arm-none-eabi/install/arm-none-eabi --with-multilib-list=aprofile,rmprofile --with-pkgversion='Arm GNU Toolchain 13.2.rel1 (Build arm-13.7)' --with-bugurl=https://bugs.linaro.org/]
+        ignore line: [Thread model: single]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 13.2.1 20231009 (Arm GNU Toolchain 13.2.rel1 (Build arm-13.7)) ]
+        ignore line: [COMPILER_PATH=/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../libexec/gcc/arm-none-eabi/13.2.1/:/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../libexec/gcc/:/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/bin/]
+        ignore line: [LIBRARY_PATH=/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main+fp/softfp/:/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/:/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/:/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/arm-none-eabi/13.2.1/:/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/:/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/:/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../arm-none-eabi/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m33' '-mthumb'  '-mcmse' '-mfloat-abi=softfp' '-nostdlib' '-v' '-o' 'cmTC_9d8d7.elf' '-mlibarch=armv8-m.main+dsp+fp' '-march=armv8-m.main+dsp+fp' '-dumpdir' 'cmTC_9d8d7.elf.']
+        link line: [ /Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../libexec/gcc/arm-none-eabi/13.2.1/collect2 -plugin /Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../libexec/gcc/arm-none-eabi/13.2.1/liblto_plugin.so -plugin-opt=/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../libexec/gcc/arm-none-eabi/13.2.1/lto-wrapper -plugin-opt=-fresolution=/var/folders/tw/zgv_k3mj5bv_770dk1c_fhk80000gn/T//ccxWwVbO.res --sysroot=/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../arm-none-eabi -X -o cmTC_9d8d7.elf -L/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main+fp/softfp -L/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp -L/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp -L/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/arm-none-eabi/13.2.1 -L/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc -L/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib -L/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../arm-none-eabi/lib --build-id=none CMakeFiles/cmTC_9d8d7.dir/CMakeCCompilerABI.c.o]
+          arg [/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../libexec/gcc/arm-none-eabi/13.2.1/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../libexec/gcc/arm-none-eabi/13.2.1/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../libexec/gcc/arm-none-eabi/13.2.1/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/var/folders/tw/zgv_k3mj5bv_770dk1c_fhk80000gn/T//ccxWwVbO.res] ==> ignore
+          arg [--sysroot=/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../arm-none-eabi] ==> ignore
+          arg [-X] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_9d8d7.elf] ==> ignore
+          arg [-L/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main+fp/softfp] ==> dir [/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main+fp/softfp]
+          arg [-L/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp] ==> dir [/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp]
+          arg [-L/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp] ==> dir [/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp]
+          arg [-L/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/arm-none-eabi/13.2.1] ==> dir [/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/arm-none-eabi/13.2.1]
+          arg [-L/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc] ==> dir [/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc]
+          arg [-L/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib] ==> dir [/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib]
+          arg [-L/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../arm-none-eabi/lib] ==> dir [/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../arm-none-eabi/lib]
+          arg [--build-id=none] ==> ignore
+          arg [CMakeFiles/cmTC_9d8d7.dir/CMakeCCompilerABI.c.o] ==> ignore
+        ignore line: [/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/bin/ld: warning: cannot find entry symbol _start]
+        ignore line: [ defaulting to 00008000]
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m33' '-mthumb'  '-mcmse' '-mfloat-abi=softfp' '-nostdlib' '-v' '-o' 'cmTC_9d8d7.elf' '-mlibarch=armv8-m.main+dsp+fp' '-march=armv8-m.main+dsp+fp' '-dumpdir' 'cmTC_9d8d7.elf.']
+        ignore line: []
+        ignore line: []
+        collapse library dir [/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main+fp/softfp] ==> [/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main+fp/softfp]
+        collapse library dir [/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp] ==> [/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/lib/thumb/v8-m.main+fp/softfp]
+        collapse library dir [/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp] ==> [/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/lib/thumb/v8-m.main+fp/softfp]
+        collapse library dir [/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/arm-none-eabi/13.2.1] ==> [/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/lib/gcc/arm-none-eabi/13.2.1]
+        collapse library dir [/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc] ==> [/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/lib/gcc]
+        collapse library dir [/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib] ==> [/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/lib]
+        collapse library dir [/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../arm-none-eabi/lib] ==> [/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/lib]
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: [/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main+fp/softfp;/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/lib/thumb/v8-m.main+fp/softfp;/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/lib/gcc/arm-none-eabi/13.2.1;/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/lib/gcc;/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Users/anarojas/.pico-sdk/cmake/v4.3.4/CMake.app/Contents/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "/Users/anarojas/.pico-sdk/cmake/v4.3.4/CMake.app/Contents/share/cmake-4.3/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:31 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/Users/anarojas/Desktop/SE1_P4_EQ3/build/CMakeFiles/CMakeScratch/TryCompile-w6o8lM"
+      binary: "/Users/anarojas/Desktop/SE1_P4_EQ3/build/CMakeFiles/CMakeScratch/TryCompile-w6o8lM"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-mcpu=cortex-m33 -mthumb -march=armv8-m.main+fp+dsp -mcmse -mfloat-abi=softfp"
+      CMAKE_CXX_FLAGS_DEBUG: "-Og -g"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/anarojas/.pico-sdk/sdk/2.3.0/cmake"
+      PICO_SDK_PATH: "/Users/anarojas/.pico-sdk/sdk/2.3.0"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/anarojas/Desktop/SE1_P4_EQ3/build/CMakeFiles/CMakeScratch/TryCompile-w6o8lM'
+        
+        Run Build Command(s): /Users/anarojas/.pico-sdk/ninja/v1.13.2/ninja -v cmTC_358d4
+        [1/2] /Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/arm-none-eabi-g++   -mcpu=cortex-m33 -mthumb -march=armv8-m.main+fp+dsp -mcmse -mfloat-abi=softfp  -std=gnu++17   -v -o CMakeFiles/cmTC_358d4.dir/CMakeCXXCompilerABI.cpp.o -c /Users/anarojas/.pico-sdk/cmake/v4.3.4/CMake.app/Contents/share/cmake-4.3/Modules/CMakeCXXCompilerABI.cpp
+        Using built-in specs.
+        COLLECT_GCC=/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/arm-none-eabi-g++
+        Target: arm-none-eabi
+        Configured with: /Volumes/data/jenkins/workspace/GNU-toolchain/arm-13/src/gcc/configure --target=arm-none-eabi --prefix=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-13/build-arm-none-eabi/install --with-gmp=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-13/build-arm-none-eabi/host-tools --with-mpfr=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-13/build-arm-none-eabi/host-tools --with-mpc=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-13/build-arm-none-eabi/host-tools --with-isl=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-13/build-arm-none-eabi/host-tools --disable-shared --disable-nls --disable-threads --disable-tls --enable-checking=release --enable-languages=c,c++,fortran --with-newlib --with-gnu-as --with-headers=yes --with-gnu-ld --with-native-system-header-dir=/include --with-sysroot=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-13/build-arm-none-eabi/install/arm-none-eabi --with-multilib-list=aprofile,rmprofile --with-pkgversion='Arm GNU Toolchain 13.2.rel1 (Build arm-13.7)' --with-bugurl=https://bugs.linaro.org/
+        Thread model: single
+        Supported LTO compression algorithms: zlib
+        gcc version 13.2.1 20231009 (Arm GNU Toolchain 13.2.rel1 (Build arm-13.7)) 
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m33' '-mthumb'  '-mcmse' '-mfloat-abi=softfp' '-std=gnu++17' '-v' '-o' 'CMakeFiles/cmTC_358d4.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mlibarch=armv8-m.main+dsp+fp' '-march=armv8-m.main+dsp+fp' '-dumpdir' 'CMakeFiles/cmTC_358d4.dir/'
+         /Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../libexec/gcc/arm-none-eabi/13.2.1/cc1plus -quiet -v -imultilib thumb/v8-m.main+fp/softfp -iprefix /Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/arm-none-eabi/13.2.1/ -isysroot /Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../arm-none-eabi -D__USES_INITFINI__ /Users/anarojas/.pico-sdk/cmake/v4.3.4/CMake.app/Contents/share/cmake-4.3/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_358d4.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mcpu=cortex-m33 -mthumb -mcmse -mfloat-abi=softfp -mlibarch=armv8-m.main+dsp+fp -march=armv8-m.main+dsp+fp -std=gnu++17 -version -o /var/folders/tw/zgv_k3mj5bv_770dk1c_fhk80000gn/T//ccBM0NPA.s
+        GNU C++17 (Arm GNU Toolchain 13.2.rel1 (Build arm-13.7)) version 13.2.1 20231009 (arm-none-eabi)
+        	compiled by GNU C version Apple LLVM 13.0.0 (clang-1300.0.29.30), GMP version 6.2.1, MPFR version 3.1.6, MPC version 1.0.3, isl version isl-0.15-1-g835ea3a-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/include/c++/13.2.1"
+        ignoring duplicate directory "/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/include/c++/13.2.1/arm-none-eabi/thumb/v8-m.main+fp/softfp"
+        ignoring duplicate directory "/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/include/c++/13.2.1/backward"
+        ignoring duplicate directory "/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/13.2.1/include"
+        ignoring nonexistent directory "/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../arm-none-eabi/usr/local/include"
+        ignoring duplicate directory "/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/13.2.1/include-fixed"
+        ignoring duplicate directory "/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/include"
+        ignoring duplicate directory "/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../arm-none-eabi/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/include/c++/13.2.1
+         /Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/include/c++/13.2.1/arm-none-eabi/thumb/v8-m.main+fp/softfp
+         /Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/include/c++/13.2.1/backward
+         /Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/arm-none-eabi/13.2.1/include
+         /Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/arm-none-eabi/13.2.1/include-fixed
+         /Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/include
+        End of search list.
+        Compiler executable checksum: d47fcb070ee5b2b70fb4a82a239aa10f
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m33' '-mthumb'  '-mcmse' '-mfloat-abi=softfp' '-std=gnu++17' '-v' '-o' 'CMakeFiles/cmTC_358d4.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mlibarch=armv8-m.main+dsp+fp' '-march=armv8-m.main+dsp+fp' '-dumpdir' 'CMakeFiles/cmTC_358d4.dir/'
+         /Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/bin/as -v -march=armv8-m.main+dsp+fp -mfloat-abi=softfp -meabi=5 -o CMakeFiles/cmTC_358d4.dir/CMakeCXXCompilerABI.cpp.o /var/folders/tw/zgv_k3mj5bv_770dk1c_fhk80000gn/T//ccBM0NPA.s
+        GNU assembler version 2.41.0 (arm-none-eabi) using BFD version (Arm GNU Toolchain 13.2.rel1 (Build arm-13.7)) 2.41.0.20231009
+        COMPILER_PATH=/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../libexec/gcc/arm-none-eabi/13.2.1/:/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../libexec/gcc/:/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/bin/
+        LIBRARY_PATH=/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main+fp/softfp/:/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/:/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/:/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/arm-none-eabi/13.2.1/:/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/:/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/:/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../arm-none-eabi/lib/
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m33' '-mthumb'  '-mcmse' '-mfloat-abi=softfp' '-std=gnu++17' '-v' '-o' 'CMakeFiles/cmTC_358d4.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mlibarch=armv8-m.main+dsp+fp' '-march=armv8-m.main+dsp+fp' '-dumpdir' 'CMakeFiles/cmTC_358d4.dir/CMakeCXXCompilerABI.cpp.'
+        [2/2] : && /Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/arm-none-eabi-g++ -mcpu=cortex-m33 -mthumb -march=armv8-m.main+fp+dsp -mcmse -mfloat-abi=softfp -Wl,--build-id=none -nostdlib  -v CMakeFiles/cmTC_358d4.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_358d4.elf   && :
+        Using built-in specs.
+        COLLECT_GCC=/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/arm-none-eabi-g++
+        COLLECT_LTO_WRAPPER=/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../libexec/gcc/arm-none-eabi/13.2.1/lto-wrapper
+        Target: arm-none-eabi
+        Configured with: /Volumes/data/jenkins/workspace/GNU-toolchain/arm-13/src/gcc/configure --target=arm-none-eabi --prefix=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-13/build-arm-none-eabi/install --with-gmp=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-13/build-arm-none-eabi/host-tools --with-mpfr=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-13/build-arm-none-eabi/host-tools --with-mpc=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-13/build-arm-none-eabi/host-tools --with-isl=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-13/build-arm-none-eabi/host-tools --disable-shared --disable-nls --disable-threads --disable-tls --enable-checking=release --enable-languages=c,c++,fortran --with-newlib --with-gnu-as --with-headers=yes --with-gnu-ld --with-native-system-header-dir=/include --with-sysroot=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-13/build-arm-none-eabi/install/arm-none-eabi --with-multilib-list=aprofile,rmprofile --with-pkgversion='Arm GNU Toolchain 13.2.rel1 (Build arm-13.7)' --with-bugurl=https://bugs.linaro.org/
+        Thread model: single
+        Supported LTO compression algorithms: zlib
+        gcc version 13.2.1 20231009 (Arm GNU Toolchain 13.2.rel1 (Build arm-13.7)) 
+        COMPILER_PATH=/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../libexec/gcc/arm-none-eabi/13.2.1/:/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../libexec/gcc/:/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/bin/
+        LIBRARY_PATH=/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main+fp/softfp/:/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/:/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/:/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/arm-none-eabi/13.2.1/:/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/:/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/:/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../arm-none-eabi/lib/
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m33' '-mthumb'  '-mcmse' '-mfloat-abi=softfp' '-nostdlib' '-v' '-o' 'cmTC_358d4.elf' '-mlibarch=armv8-m.main+dsp+fp' '-march=armv8-m.main+dsp+fp' '-dumpdir' 'cmTC_358d4.elf.'
+         /Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../libexec/gcc/arm-none-eabi/13.2.1/collect2 -plugin /Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../libexec/gcc/arm-none-eabi/13.2.1/liblto_plugin.so -plugin-opt=/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../libexec/gcc/arm-none-eabi/13.2.1/lto-wrapper -plugin-opt=-fresolution=/var/folders/tw/zgv_k3mj5bv_770dk1c_fhk80000gn/T//ccVDebu1.res --sysroot=/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../arm-none-eabi -X -o cmTC_358d4.elf -L/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main+fp/softfp -L/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp -L/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp -L/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/arm-none-eabi/13.2.1 -L/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc -L/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib -L/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../arm-none-eabi/lib --build-id=none CMakeFiles/cmTC_358d4.dir/CMakeCXXCompilerABI.cpp.o
+        /Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/bin/ld: warning: cannot find entry symbol _start; defaulting to 00008000
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m33' '-mthumb'  '-mcmse' '-mfloat-abi=softfp' '-nostdlib' '-v' '-o' 'cmTC_358d4.elf' '-mlibarch=armv8-m.main+dsp+fp' '-march=armv8-m.main+dsp+fp' '-dumpdir' 'cmTC_358d4.elf.'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/Users/anarojas/.pico-sdk/cmake/v4.3.4/CMake.app/Contents/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:217 (message)"
+      - "/Users/anarojas/.pico-sdk/cmake/v4.3.4/CMake.app/Contents/share/cmake-4.3/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:31 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/include/c++/13.2.1]
+          add: [/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/include/c++/13.2.1/arm-none-eabi/thumb/v8-m.main+fp/softfp]
+          add: [/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/include/c++/13.2.1/backward]
+          add: [/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/arm-none-eabi/13.2.1/include]
+          add: [/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/arm-none-eabi/13.2.1/include-fixed]
+          add: [/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/include]
+        end of search list found
+        collapse include dir [/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/include/c++/13.2.1] ==> [/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/c++/13.2.1]
+        collapse include dir [/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/include/c++/13.2.1/arm-none-eabi/thumb/v8-m.main+fp/softfp] ==> [/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/c++/13.2.1/arm-none-eabi/thumb/v8-m.main+fp/softfp]
+        collapse include dir [/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/include/c++/13.2.1/backward] ==> [/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/c++/13.2.1/backward]
+        collapse include dir [/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/arm-none-eabi/13.2.1/include] ==> [/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/lib/gcc/arm-none-eabi/13.2.1/include]
+        collapse include dir [/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/arm-none-eabi/13.2.1/include-fixed] ==> [/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/lib/gcc/arm-none-eabi/13.2.1/include-fixed]
+        collapse include dir [/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/include] ==> [/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include]
+        implicit include dirs: [/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/c++/13.2.1;/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/c++/13.2.1/arm-none-eabi/thumb/v8-m.main+fp/softfp;/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/c++/13.2.1/backward;/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/lib/gcc/arm-none-eabi/13.2.1/include;/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/lib/gcc/arm-none-eabi/13.2.1/include-fixed;/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/Users/anarojas/.pico-sdk/cmake/v4.3.4/CMake.app/Contents/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "/Users/anarojas/.pico-sdk/cmake/v4.3.4/CMake.app/Contents/share/cmake-4.3/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:31 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
+        ignore line: [Change Dir: '/Users/anarojas/Desktop/SE1_P4_EQ3/build/CMakeFiles/CMakeScratch/TryCompile-w6o8lM']
+        ignore line: []
+        ignore line: [Run Build Command(s): /Users/anarojas/.pico-sdk/ninja/v1.13.2/ninja -v cmTC_358d4]
+        ignore line: [[1/2] /Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/arm-none-eabi-g++   -mcpu=cortex-m33 -mthumb -march=armv8-m.main+fp+dsp -mcmse -mfloat-abi=softfp  -std=gnu++17   -v -o CMakeFiles/cmTC_358d4.dir/CMakeCXXCompilerABI.cpp.o -c /Users/anarojas/.pico-sdk/cmake/v4.3.4/CMake.app/Contents/share/cmake-4.3/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/arm-none-eabi-g++]
+        ignore line: [Target: arm-none-eabi]
+        ignore line: [Configured with: /Volumes/data/jenkins/workspace/GNU-toolchain/arm-13/src/gcc/configure --target=arm-none-eabi --prefix=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-13/build-arm-none-eabi/install --with-gmp=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-13/build-arm-none-eabi/host-tools --with-mpfr=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-13/build-arm-none-eabi/host-tools --with-mpc=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-13/build-arm-none-eabi/host-tools --with-isl=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-13/build-arm-none-eabi/host-tools --disable-shared --disable-nls --disable-threads --disable-tls --enable-checking=release --enable-languages=c,c++,fortran --with-newlib --with-gnu-as --with-headers=yes --with-gnu-ld --with-native-system-header-dir=/include --with-sysroot=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-13/build-arm-none-eabi/install/arm-none-eabi --with-multilib-list=aprofile,rmprofile --with-pkgversion='Arm GNU Toolchain 13.2.rel1 (Build arm-13.7)' --with-bugurl=https://bugs.linaro.org/]
+        ignore line: [Thread model: single]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 13.2.1 20231009 (Arm GNU Toolchain 13.2.rel1 (Build arm-13.7)) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m33' '-mthumb'  '-mcmse' '-mfloat-abi=softfp' '-std=gnu++17' '-v' '-o' 'CMakeFiles/cmTC_358d4.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mlibarch=armv8-m.main+dsp+fp' '-march=armv8-m.main+dsp+fp' '-dumpdir' 'CMakeFiles/cmTC_358d4.dir/']
+        ignore line: [ /Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../libexec/gcc/arm-none-eabi/13.2.1/cc1plus -quiet -v -imultilib thumb/v8-m.main+fp/softfp -iprefix /Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/arm-none-eabi/13.2.1/ -isysroot /Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../arm-none-eabi -D__USES_INITFINI__ /Users/anarojas/.pico-sdk/cmake/v4.3.4/CMake.app/Contents/share/cmake-4.3/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_358d4.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mcpu=cortex-m33 -mthumb -mcmse -mfloat-abi=softfp -mlibarch=armv8-m.main+dsp+fp -march=armv8-m.main+dsp+fp -std=gnu++17 -version -o /var/folders/tw/zgv_k3mj5bv_770dk1c_fhk80000gn/T//ccBM0NPA.s]
+        ignore line: [GNU C++17 (Arm GNU Toolchain 13.2.rel1 (Build arm-13.7)) version 13.2.1 20231009 (arm-none-eabi)]
+        ignore line: [	compiled by GNU C version Apple LLVM 13.0.0 (clang-1300.0.29.30)  GMP version 6.2.1  MPFR version 3.1.6  MPC version 1.0.3  isl version isl-0.15-1-g835ea3a-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/include/c++/13.2.1"]
+        ignore line: [ignoring duplicate directory "/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/include/c++/13.2.1/arm-none-eabi/thumb/v8-m.main+fp/softfp"]
+        ignore line: [ignoring duplicate directory "/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/include/c++/13.2.1/backward"]
+        ignore line: [ignoring duplicate directory "/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/13.2.1/include"]
+        ignore line: [ignoring nonexistent directory "/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../arm-none-eabi/usr/local/include"]
+        ignore line: [ignoring duplicate directory "/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/13.2.1/include-fixed"]
+        ignore line: [ignoring duplicate directory "/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/include"]
+        ignore line: [ignoring duplicate directory "/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../arm-none-eabi/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/include/c++/13.2.1]
+        ignore line: [ /Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/include/c++/13.2.1/arm-none-eabi/thumb/v8-m.main+fp/softfp]
+        ignore line: [ /Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/include/c++/13.2.1/backward]
+        ignore line: [ /Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/arm-none-eabi/13.2.1/include]
+        ignore line: [ /Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/arm-none-eabi/13.2.1/include-fixed]
+        ignore line: [ /Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: d47fcb070ee5b2b70fb4a82a239aa10f]
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m33' '-mthumb'  '-mcmse' '-mfloat-abi=softfp' '-std=gnu++17' '-v' '-o' 'CMakeFiles/cmTC_358d4.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mlibarch=armv8-m.main+dsp+fp' '-march=armv8-m.main+dsp+fp' '-dumpdir' 'CMakeFiles/cmTC_358d4.dir/']
+        ignore line: [ /Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/bin/as -v -march=armv8-m.main+dsp+fp -mfloat-abi=softfp -meabi=5 -o CMakeFiles/cmTC_358d4.dir/CMakeCXXCompilerABI.cpp.o /var/folders/tw/zgv_k3mj5bv_770dk1c_fhk80000gn/T//ccBM0NPA.s]
+        ignore line: [GNU assembler version 2.41.0 (arm-none-eabi) using BFD version (Arm GNU Toolchain 13.2.rel1 (Build arm-13.7)) 2.41.0.20231009]
+        ignore line: [COMPILER_PATH=/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../libexec/gcc/arm-none-eabi/13.2.1/:/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../libexec/gcc/:/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/bin/]
+        ignore line: [LIBRARY_PATH=/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main+fp/softfp/:/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/:/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/:/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/arm-none-eabi/13.2.1/:/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/:/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/:/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../arm-none-eabi/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m33' '-mthumb'  '-mcmse' '-mfloat-abi=softfp' '-std=gnu++17' '-v' '-o' 'CMakeFiles/cmTC_358d4.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mlibarch=armv8-m.main+dsp+fp' '-march=armv8-m.main+dsp+fp' '-dumpdir' 'CMakeFiles/cmTC_358d4.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [[2/2] : && /Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/arm-none-eabi-g++ -mcpu=cortex-m33 -mthumb -march=armv8-m.main+fp+dsp -mcmse -mfloat-abi=softfp -Wl --build-id=none -nostdlib  -v CMakeFiles/cmTC_358d4.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_358d4.elf   && :]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/arm-none-eabi-g++]
+        ignore line: [COLLECT_LTO_WRAPPER=/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../libexec/gcc/arm-none-eabi/13.2.1/lto-wrapper]
+        ignore line: [Target: arm-none-eabi]
+        ignore line: [Configured with: /Volumes/data/jenkins/workspace/GNU-toolchain/arm-13/src/gcc/configure --target=arm-none-eabi --prefix=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-13/build-arm-none-eabi/install --with-gmp=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-13/build-arm-none-eabi/host-tools --with-mpfr=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-13/build-arm-none-eabi/host-tools --with-mpc=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-13/build-arm-none-eabi/host-tools --with-isl=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-13/build-arm-none-eabi/host-tools --disable-shared --disable-nls --disable-threads --disable-tls --enable-checking=release --enable-languages=c,c++,fortran --with-newlib --with-gnu-as --with-headers=yes --with-gnu-ld --with-native-system-header-dir=/include --with-sysroot=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-13/build-arm-none-eabi/install/arm-none-eabi --with-multilib-list=aprofile,rmprofile --with-pkgversion='Arm GNU Toolchain 13.2.rel1 (Build arm-13.7)' --with-bugurl=https://bugs.linaro.org/]
+        ignore line: [Thread model: single]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 13.2.1 20231009 (Arm GNU Toolchain 13.2.rel1 (Build arm-13.7)) ]
+        ignore line: [COMPILER_PATH=/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../libexec/gcc/arm-none-eabi/13.2.1/:/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../libexec/gcc/:/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/bin/]
+        ignore line: [LIBRARY_PATH=/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main+fp/softfp/:/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/:/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/:/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/arm-none-eabi/13.2.1/:/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/:/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/:/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../arm-none-eabi/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m33' '-mthumb'  '-mcmse' '-mfloat-abi=softfp' '-nostdlib' '-v' '-o' 'cmTC_358d4.elf' '-mlibarch=armv8-m.main+dsp+fp' '-march=armv8-m.main+dsp+fp' '-dumpdir' 'cmTC_358d4.elf.']
+        link line: [ /Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../libexec/gcc/arm-none-eabi/13.2.1/collect2 -plugin /Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../libexec/gcc/arm-none-eabi/13.2.1/liblto_plugin.so -plugin-opt=/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../libexec/gcc/arm-none-eabi/13.2.1/lto-wrapper -plugin-opt=-fresolution=/var/folders/tw/zgv_k3mj5bv_770dk1c_fhk80000gn/T//ccVDebu1.res --sysroot=/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../arm-none-eabi -X -o cmTC_358d4.elf -L/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main+fp/softfp -L/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp -L/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp -L/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/arm-none-eabi/13.2.1 -L/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc -L/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib -L/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../arm-none-eabi/lib --build-id=none CMakeFiles/cmTC_358d4.dir/CMakeCXXCompilerABI.cpp.o]
+          arg [/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../libexec/gcc/arm-none-eabi/13.2.1/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../libexec/gcc/arm-none-eabi/13.2.1/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../libexec/gcc/arm-none-eabi/13.2.1/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/var/folders/tw/zgv_k3mj5bv_770dk1c_fhk80000gn/T//ccVDebu1.res] ==> ignore
+          arg [--sysroot=/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../arm-none-eabi] ==> ignore
+          arg [-X] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_358d4.elf] ==> ignore
+          arg [-L/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main+fp/softfp] ==> dir [/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main+fp/softfp]
+          arg [-L/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp] ==> dir [/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp]
+          arg [-L/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp] ==> dir [/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp]
+          arg [-L/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/arm-none-eabi/13.2.1] ==> dir [/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/arm-none-eabi/13.2.1]
+          arg [-L/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc] ==> dir [/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc]
+          arg [-L/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib] ==> dir [/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib]
+          arg [-L/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../arm-none-eabi/lib] ==> dir [/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../arm-none-eabi/lib]
+          arg [--build-id=none] ==> ignore
+          arg [CMakeFiles/cmTC_358d4.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+        ignore line: [/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/bin/ld: warning: cannot find entry symbol _start]
+        ignore line: [ defaulting to 00008000]
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m33' '-mthumb'  '-mcmse' '-mfloat-abi=softfp' '-nostdlib' '-v' '-o' 'cmTC_358d4.elf' '-mlibarch=armv8-m.main+dsp+fp' '-march=armv8-m.main+dsp+fp' '-dumpdir' 'cmTC_358d4.elf.']
+        ignore line: []
+        ignore line: []
+        collapse library dir [/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main+fp/softfp] ==> [/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main+fp/softfp]
+        collapse library dir [/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp] ==> [/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/lib/thumb/v8-m.main+fp/softfp]
+        collapse library dir [/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp] ==> [/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/lib/thumb/v8-m.main+fp/softfp]
+        collapse library dir [/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/arm-none-eabi/13.2.1] ==> [/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/lib/gcc/arm-none-eabi/13.2.1]
+        collapse library dir [/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc] ==> [/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/lib/gcc]
+        collapse library dir [/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib] ==> [/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/lib]
+        collapse library dir [/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/../arm-none-eabi/lib] ==> [/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/lib]
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: [/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main+fp/softfp;/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/lib/thumb/v8-m.main+fp/softfp;/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/lib/gcc/arm-none-eabi/13.2.1;/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/lib/gcc;/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Users/anarojas/.pico-sdk/sdk/2.3.0/src/rp2_common/pico_thread_local/CMakeLists.txt:53 (try_compile)"
+      - "/Users/anarojas/.pico-sdk/sdk/2.3.0/src/rp2_common/pico_thread_local/CMakeLists.txt:85 (pico_detect_tls_type)"
+    directories:
+      source: "/Users/anarojas/Desktop/SE1_P4_EQ3/build/pico-sdk/src/rp2_common/pico_thread_local/CMakeFiles/CMakeTmp"
+      binary: "/Users/anarojas/Desktop/SE1_P4_EQ3/build/pico-sdk/src/rp2_common/pico_thread_local/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: "-mcpu=cortex-m33 -mthumb -march=armv8-m.main+fp+dsp -mcmse -mfloat-abi=softfp"
+      CMAKE_C_FLAGS_DEBUG: "-Og -g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/anarojas/.pico-sdk/sdk/2.3.0/cmake"
+      PICO_SDK_PATH: "/Users/anarojas/.pico-sdk/sdk/2.3.0"
+    buildResult:
+      variable: "CAN_COMPILE_TLS"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/anarojas/Desktop/SE1_P4_EQ3/build/pico-sdk/src/rp2_common/pico_thread_local/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /Users/anarojas/.pico-sdk/ninja/v1.13.2/ninja -v cmTC_98752
+        [1/2] /Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/arm-none-eabi-gcc   -mcpu=cortex-m33 -mthumb -march=armv8-m.main+fp+dsp -mcmse -mfloat-abi=softfp  -std=gnu11 -o CMakeFiles/cmTC_98752.dir/tls_check.c.o -c /Users/anarojas/Desktop/SE1_P4_EQ3/build/pico-sdk/src/rp2_common/pico_thread_local/tls_check.c
+        [2/2] : && /Users/anarojas/.pico-sdk/cmake/v4.3.4/bin/cmake -E rm -f libcmTC_98752.a && /Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/arm-none-eabi-ar qc libcmTC_98752.a  CMakeFiles/cmTC_98752.dir/tls_check.c.o && /Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/arm-none-eabi-ranlib libcmTC_98752.a && /Users/anarojas/.pico-sdk/cmake/v4.3.4/bin/cmake -E touch libcmTC_98752.a && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Users/anarojas/.pico-sdk/sdk/2.3.0/src/rp2_common/pico_clib_interface/CMakeLists.txt:64 (try_compile)"
+    directories:
+      source: "/Users/anarojas/Desktop/SE1_P4_EQ3/build/pico-sdk/src/rp2_common/pico_clib_interface/CMakeFiles/CMakeTmp"
+      binary: "/Users/anarojas/Desktop/SE1_P4_EQ3/build/pico-sdk/src/rp2_common/pico_clib_interface/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: "-mcpu=cortex-m33 -mthumb -march=armv8-m.main+fp+dsp -mcmse -mfloat-abi=softfp"
+      CMAKE_C_FLAGS_DEBUG: "-Og -g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/anarojas/.pico-sdk/sdk/2.3.0/cmake"
+      PICO_SDK_PATH: "/Users/anarojas/.pico-sdk/sdk/2.3.0"
+    buildResult:
+      variable: "CLIB_MATCHED"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/anarojas/Desktop/SE1_P4_EQ3/build/pico-sdk/src/rp2_common/pico_clib_interface/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /Users/anarojas/.pico-sdk/ninja/v1.13.2/ninja -v cmTC_14740
+        [1/2] /Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/arm-none-eabi-gcc -Dnewlib=1  -mcpu=cortex-m33 -mthumb -march=armv8-m.main+fp+dsp -mcmse -mfloat-abi=softfp  -std=gnu11 -o CMakeFiles/cmTC_14740.dir/clib_check.c.o -c /Users/anarojas/Desktop/SE1_P4_EQ3/build/pico-sdk/src/rp2_common/pico_clib_interface/clib_check.c
+        [2/2] : && /Users/anarojas/.pico-sdk/cmake/v4.3.4/bin/cmake -E rm -f libcmTC_14740.a && /Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/arm-none-eabi-ar qc libcmTC_14740.a  CMakeFiles/cmTC_14740.dir/clib_check.c.o && /Users/anarojas/.pico-sdk/toolchain/13_2_Rel1/bin/arm-none-eabi-ranlib libcmTC_14740.a && /Users/anarojas/.pico-sdk/cmake/v4.3.4/bin/cmake -E touch libcmTC_14740.a && :
+        
+      exitCode: 0
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/Users/anarojas/.pico-sdk/cmake/v4.3.4/CMake.app/Contents/share/cmake-4.3/Modules/FindDoxygen.cmake:770 (find_program)"
+      - "/Users/anarojas/.pico-sdk/cmake/v4.3.4/CMake.app/Contents/share/cmake-4.3/Modules/FindDoxygen.cmake:955 (_Doxygen_find_doxygen)"
+      - "/Users/anarojas/.pico-sdk/sdk/2.3.0/docs/CMakeLists.txt:1 (find_package)"
+    mode: "program"
+    variable: "DOXYGEN_EXECUTABLE"
+    description: "Doxygen documentation generation tool (https://www.doxygen.nl)"
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "doxygen"
+    candidate_directories:
+      - "/Users/anarojas/.pico-sdk/ninja/v1.13.2/"
+      - "/Users/anarojas/.pico-sdk/cmake/v4.3.4/bin/"
+      - "/usr/bin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Library/TeX/texbin/"
+      - "/usr/local/share/dotnet/"
+      - "/Users/anarojas/.dotnet/tools/"
+      - "/usr/local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/"
+      - "/usr/bin/"
+      - "/usr/sbin/"
+      - "/usr/"
+      - "/bin/"
+      - "/sbin/"
+      - "/Users/anarojas/.pico-sdk/cmake/v4.3.4/CMake.app/Contents/bin/"
+      - "/Users/anarojas/.pico-sdk/cmake/v4.3.4/CMake.app/Contents/sbin/"
+      - "/Users/anarojas/.pico-sdk/cmake/v4.3.4/CMake.app/Contents/"
+      - "/usr/X11R6/bin/"
+      - "/usr/X11R6/sbin/"
+      - "/usr/X11R6/"
+      - "/usr/pkg/bin/"
+      - "/usr/pkg/sbin/"
+      - "/usr/pkg/"
+      - "/opt/bin/"
+      - "/opt/sbin/"
+      - "/opt/"
+      - "/Applications/Doxygen.app/Contents/Resources/"
+      - "/Applications/Doxygen.app/Contents/MacOS/"
+      - "/Applications/Utilities/Doxygen.app/Contents/Resources/"
+      - "/Applications/Utilities/Doxygen.app/Contents/MacOS/"
+    searched_directories:
+      - "/Users/anarojas/.pico-sdk/ninja/v1.13.2/doxygen"
+      - "/Users/anarojas/.pico-sdk/cmake/v4.3.4/bin/doxygen"
+      - "/usr/bin/doxygen"
+      - "/usr/local/bin/doxygen"
+      - "/System/Cryptexes/App/usr/bin/doxygen"
+      - "/bin/doxygen"
+      - "/usr/sbin/doxygen"
+      - "/sbin/doxygen"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/doxygen"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/doxygen"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/doxygen"
+      - "/Library/Apple/usr/bin/doxygen"
+      - "/Library/TeX/texbin/doxygen"
+      - "/usr/local/share/dotnet/doxygen"
+      - "/Users/anarojas/.dotnet/tools/doxygen"
+      - "/usr/local/bin/doxygen"
+      - "/usr/local/sbin/doxygen"
+      - "/usr/local/doxygen"
+      - "/usr/bin/doxygen"
+      - "/usr/sbin/doxygen"
+      - "/usr/doxygen"
+      - "/bin/doxygen"
+      - "/sbin/doxygen"
+      - "/Users/anarojas/.pico-sdk/cmake/v4.3.4/CMake.app/Contents/bin/doxygen"
+      - "/Users/anarojas/.pico-sdk/cmake/v4.3.4/CMake.app/Contents/sbin/doxygen"
+      - "/Users/anarojas/.pico-sdk/cmake/v4.3.4/CMake.app/Contents/doxygen"
+      - "/usr/X11R6/bin/doxygen"
+      - "/usr/X11R6/sbin/doxygen"
+      - "/usr/X11R6/doxygen"
+      - "/usr/pkg/bin/doxygen"
+      - "/usr/pkg/sbin/doxygen"
+      - "/usr/pkg/doxygen"
+      - "/opt/bin/doxygen"
+      - "/opt/sbin/doxygen"
+      - "/opt/doxygen"
+      - "/Applications/Doxygen.app/Contents/Resources/doxygen"
+      - "/Applications/Doxygen.app/Contents/MacOS/doxygen"
+      - "/Applications/Utilities/Doxygen.app/Contents/Resources/doxygen"
+      - "/Applications/Utilities/Doxygen.app/Contents/MacOS/doxygen"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/Users/anarojas/.pico-sdk/ninja/v1.13.2"
+        - "/Users/anarojas/.pico-sdk/cmake/v4.3.4/bin"
+        - "/usr/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Library/TeX/texbin"
+        - "/usr/local/share/dotnet"
+        - "~/.dotnet/tools"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/Users/anarojas/.pico-sdk/cmake/v4.3.4/CMake.app/Contents"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_FIND_ROOT_PATH: "/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/Users/anarojas/.pico-sdk/cmake/v4.3.4/CMake.app/Contents/share/cmake-4.3/Modules/FindDoxygen.cmake:858 (find_program)"
+      - "/Users/anarojas/.pico-sdk/cmake/v4.3.4/CMake.app/Contents/share/cmake-4.3/Modules/FindDoxygen.cmake:959 (_Doxygen_find_dot)"
+      - "/Users/anarojas/.pico-sdk/sdk/2.3.0/docs/CMakeLists.txt:1 (find_package)"
+    mode: "program"
+    variable: "DOXYGEN_DOT_EXECUTABLE"
+    description: "Dot tool for use with Doxygen"
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "dot"
+    candidate_directories:
+      - "/Users/anarojas/.pico-sdk/ninja/v1.13.2/"
+      - "/Users/anarojas/.pico-sdk/cmake/v4.3.4/bin/"
+      - "/usr/bin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Library/TeX/texbin/"
+      - "/usr/local/share/dotnet/"
+      - "/Users/anarojas/.dotnet/tools/"
+      - "/usr/local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/"
+      - "/usr/bin/"
+      - "/usr/sbin/"
+      - "/usr/"
+      - "/bin/"
+      - "/sbin/"
+      - "/Users/anarojas/.pico-sdk/cmake/v4.3.4/CMake.app/Contents/bin/"
+      - "/Users/anarojas/.pico-sdk/cmake/v4.3.4/CMake.app/Contents/sbin/"
+      - "/Users/anarojas/.pico-sdk/cmake/v4.3.4/CMake.app/Contents/"
+      - "/usr/X11R6/bin/"
+      - "/usr/X11R6/sbin/"
+      - "/usr/X11R6/"
+      - "/usr/pkg/bin/"
+      - "/usr/pkg/sbin/"
+      - "/usr/pkg/"
+      - "/opt/bin/"
+      - "/opt/sbin/"
+      - "/opt/"
+      - "/ATT/Graphviz/bin/"
+      - "C:/Program Files/ATT/Graphviz/bin/"
+      - "/Applications/Graphviz.app/Contents/MacOS/"
+      - "/Applications/Utilities/Graphviz.app/Contents/MacOS/"
+      - "/Applications/Doxygen.app/Contents/Resources/"
+      - "/Applications/Doxygen.app/Contents/MacOS/"
+      - "/Applications/Utilities/Doxygen.app/Contents/Resources/"
+      - "/Applications/Utilities/Doxygen.app/Contents/MacOS/"
+    searched_directories:
+      - "/Users/anarojas/.pico-sdk/ninja/v1.13.2/dot"
+      - "/Users/anarojas/.pico-sdk/cmake/v4.3.4/bin/dot"
+      - "/usr/bin/dot"
+      - "/usr/local/bin/dot"
+      - "/System/Cryptexes/App/usr/bin/dot"
+      - "/bin/dot"
+      - "/usr/sbin/dot"
+      - "/sbin/dot"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/dot"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/dot"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/dot"
+      - "/Library/Apple/usr/bin/dot"
+      - "/Library/TeX/texbin/dot"
+      - "/usr/local/share/dotnet/dot"
+      - "/Users/anarojas/.dotnet/tools/dot"
+      - "/usr/local/bin/dot"
+      - "/usr/local/sbin/dot"
+      - "/usr/local/dot"
+      - "/usr/bin/dot"
+      - "/usr/sbin/dot"
+      - "/usr/dot"
+      - "/bin/dot"
+      - "/sbin/dot"
+      - "/Users/anarojas/.pico-sdk/cmake/v4.3.4/CMake.app/Contents/bin/dot"
+      - "/Users/anarojas/.pico-sdk/cmake/v4.3.4/CMake.app/Contents/sbin/dot"
+      - "/Users/anarojas/.pico-sdk/cmake/v4.3.4/CMake.app/Contents/dot"
+      - "/usr/X11R6/bin/dot"
+      - "/usr/X11R6/sbin/dot"
+      - "/usr/X11R6/dot"
+      - "/usr/pkg/bin/dot"
+      - "/usr/pkg/sbin/dot"
+      - "/usr/pkg/dot"
+      - "/opt/bin/dot"
+      - "/opt/sbin/dot"
+      - "/opt/dot"
+      - "/ATT/Graphviz/bin/dot"
+      - "C:/Program Files/ATT/Graphviz/bin/dot"
+      - "/Applications/Graphviz.app/Contents/MacOS/dot"
+      - "/Applications/Utilities/Graphviz.app/Contents/MacOS/dot"
+      - "/Applications/Doxygen.app/Contents/Resources/dot"
+      - "/Applications/Doxygen.app/Contents/MacOS/dot"
+      - "/Applications/Utilities/Doxygen.app/Contents/Resources/dot"
+      - "/Applications/Utilities/Doxygen.app/Contents/MacOS/dot"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/Users/anarojas/.pico-sdk/ninja/v1.13.2"
+        - "/Users/anarojas/.pico-sdk/cmake/v4.3.4/bin"
+        - "/usr/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Library/TeX/texbin"
+        - "/usr/local/share/dotnet"
+        - "~/.dotnet/tools"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/Users/anarojas/.pico-sdk/cmake/v4.3.4/CMake.app/Contents"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_FIND_ROOT_PATH: "/Users/anarojas/.pico-sdk/toolchain/13_2_Rel1"
+...
