@@ -1,0 +1,233 @@
+# ninja log v7
+14	286	1789584845443054050	pico-sdk/src/rp2350/boot_stage2/CMakeFiles/bs2_default.dir/compile_time_choice.S.o	fdbe9bf3d7a7ec9a
+286	447	1789584845874841931	pico-sdk/src/rp2350/boot_stage2/bs2_default.elf	8a348984b3a81550
+286	447	1789584845874841931	pico-sdk/src/rp2350/boot_stage2/bs2_default.dis	8a348984b3a81550
+286	447	1789584845874841931	/Users/anarojas/Desktop/Sistemas Embebidos 2026/SE1_P6_EQ3_DOS/build/pico-sdk/src/rp2350/boot_stage2/bs2_default.dis	8a348984b3a81550
+447	483	1789584845910650177	pico-sdk/src/rp2350/boot_stage2/bs2_default.bin	5efe331317670b60
+447	483	1789584845910650177	/Users/anarojas/Desktop/Sistemas Embebidos 2026/SE1_P6_EQ3_DOS/build/pico-sdk/src/rp2350/boot_stage2/bs2_default.bin	5efe331317670b60
+483	609	1789584846033130635	pico-sdk/src/rp2350/boot_stage2/bs2_default_padded.S	2b0cd3a8ad449654
+483	609	1789584846033130635	/Users/anarojas/Desktop/Sistemas Embebidos 2026/SE1_P6_EQ3_DOS/build/pico-sdk/src/rp2350/boot_stage2/bs2_default_padded.S	2b0cd3a8ad449654
+612	786	1789584846040877201	CMakeFiles/SE1_P6_EQ3_DOS.dir/Users/anarojas/.pico-sdk/sdk/2.3.1/src/rp2_common/pico_platform_panic/custom_panic_function.S.o	e3138fe03d9f5bf
+616	796	1789584846045412244	CMakeFiles/SE1_P6_EQ3_DOS.dir/Users/anarojas/.pico-sdk/sdk/2.3.1/src/rp2_common/hardware_irq/irq_handler_chain.S.o	f5f899188649cb71
+611	886	1789584846040006049	CMakeFiles/SE1_P6_EQ3_DOS.dir/Users/anarojas/.pico-sdk/sdk/2.3.1/src/rp2_common/pico_platform_common/common.c.o	cf11bc66ba9833ab
+610	988	1789584846039417931	CMakeFiles/SE1_P6_EQ3_DOS.dir/Users/anarojas/.pico-sdk/sdk/2.3.1/src/rp2350/pico_platform/platform.c.o	da341642c7f3d1b3
+619	990	1789584846050775529	CMakeFiles/SE1_P6_EQ3_DOS.dir/Users/anarojas/.pico-sdk/sdk/2.3.1/src/common/pico_sync/lock_core.c.o	c7da6933182d87bf
+628	994	1789584846056780259	CMakeFiles/SE1_P6_EQ3_DOS.dir/Users/anarojas/.pico-sdk/sdk/2.3.1/src/common/pico_sync/critical_section.c.o	63513c56cd32cb36
+613	1002	1789584846042631607	CMakeFiles/SE1_P6_EQ3_DOS.dir/Users/anarojas/.pico-sdk/sdk/2.3.1/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o	c886fea869535319
+611	1010	1789584846040458674	CMakeFiles/SE1_P6_EQ3_DOS.dir/Users/anarojas/.pico-sdk/sdk/2.3.1/src/rp2_common/pico_platform_panic/panic.c.o	9d127efbdda67291
+637	1012	1789584846066507188	CMakeFiles/SE1_P6_EQ3_DOS.dir/Users/anarojas/.pico-sdk/sdk/2.3.1/src/common/pico_time/timeout_helper.c.o	dc088aa1476ad63
+613	1022	1789584846041893377	CMakeFiles/SE1_P6_EQ3_DOS.dir/Users/anarojas/.pico-sdk/sdk/2.3.1/src/rp2_common/hardware_sync/sync.c.o	c22711e508ee2d62
+612	1045	1789584846041368149	CMakeFiles/SE1_P6_EQ3_DOS.dir/Users/anarojas/.pico-sdk/sdk/2.3.1/src/common/hardware_claim/claim.c.o	4de59ab7c2c6784e
+609	1075	1789584846038456802	CMakeFiles/SE1_P6_EQ3_DOS.dir/Users/anarojas/.pico-sdk/sdk/2.3.1/src/rp2_common/pico_stdlib/stdlib.c.o	dec0e1278a2eb074
+617	1142	1789584846046616785	CMakeFiles/SE1_P6_EQ3_DOS.dir/Users/anarojas/.pico-sdk/sdk/2.3.1/src/common/pico_sync/sem.c.o	386a3e3d8f01c9f3
+887	1160	1789584846315701723	CMakeFiles/SE1_P6_EQ3_DOS.dir/Users/anarojas/.pico-sdk/sdk/2.3.1/src/common/pico_util/fixed_bitset.c.o	6e19aca92a422168
+609	1186	1789584846038040987	CMakeFiles/SE1_P6_EQ3_DOS.dir/SE1_P6_EQ3_DOS.c.o	e130eb25f823b1b
+1045	1223	1789584846473924023	CMakeFiles/SE1_P6_EQ3_DOS.dir/Users/anarojas/.pico-sdk/sdk/2.3.1/src/rp2_common/hardware_ticks/ticks.c.o	1e183a4cc3f0f4c5
+1012	1234	1789584846441574178	CMakeFiles/SE1_P6_EQ3_DOS.dir/Users/anarojas/.pico-sdk/sdk/2.3.1/src/rp2_common/hardware_vreg/vreg.c.o	fa80513f8c9729e1
+1011	1262	1789584846439636171	CMakeFiles/SE1_P6_EQ3_DOS.dir/Users/anarojas/.pico-sdk/sdk/2.3.1/src/rp2_common/hardware_pll/pll.c.o	c1e52a88783cdf49
+796	1277	1789584846225167940	CMakeFiles/SE1_P6_EQ3_DOS.dir/Users/anarojas/.pico-sdk/sdk/2.3.1/src/common/pico_util/datetime.c.o	659d692ef61602ff
+625	1278	1789584846054509462	CMakeFiles/SE1_P6_EQ3_DOS.dir/Users/anarojas/.pico-sdk/sdk/2.3.1/src/common/pico_sync/mutex.c.o	429494cd5dfa09ef
+1142	1342	1789584846571426888	CMakeFiles/SE1_P6_EQ3_DOS.dir/Users/anarojas/.pico-sdk/sdk/2.3.1/src/rp2_common/pico_bootrom/bootrom_lock.c.o	5c63adda8819f5b8
+1160	1368	1789584846589282529	CMakeFiles/SE1_P6_EQ3_DOS.dir/Users/anarojas/.pico-sdk/sdk/2.3.1/src/rp2_common/hardware_boot_lock/boot_lock.c.o	7d34756516d29249
+1234	1379	1789584846663182543	CMakeFiles/SE1_P6_EQ3_DOS.dir/Users/anarojas/.pico-sdk/sdk/2.3.1/src/rp2_common/hardware_divider/divider.c.o	5f2ac88b2d84d458
+1187	1416	1789584846615648974	CMakeFiles/SE1_P6_EQ3_DOS.dir/Users/anarojas/.pico-sdk/sdk/2.3.1/src/rp2_common/pico_flash/flash.c.o	e3088ff9e1dfb9b0
+1223	1418	1789584846651778046	CMakeFiles/SE1_P6_EQ3_DOS.dir/Users/anarojas/.pico-sdk/sdk/2.3.1/src/rp2_common/hardware_xosc/xosc.c.o	2400c011f2034207
+1262	1440	1789584846691091252	CMakeFiles/SE1_P6_EQ3_DOS.dir/Users/anarojas/.pico-sdk/sdk/2.3.1/src/rp2_common/pico_runtime/runtime.c.o	7a9653d317547181
+1368	1450	1789584846797234127	CMakeFiles/SE1_P6_EQ3_DOS.dir/Users/anarojas/.pico-sdk/sdk/2.3.1/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o	8b7288baa2ced438
+614	1468	1789584846043228877	CMakeFiles/SE1_P6_EQ3_DOS.dir/Users/anarojas/.pico-sdk/sdk/2.3.1/src/rp2_common/hardware_irq/irq.c.o	9adfd1b7815510ab
+994	1486	1789584846423301801	CMakeFiles/SE1_P6_EQ3_DOS.dir/Users/anarojas/.pico-sdk/sdk/2.3.1/src/rp2_common/hardware_uart/uart.c.o	95ecb41349e08a50
+1342	1496	1789584846771188702	CMakeFiles/SE1_P6_EQ3_DOS.dir/Users/anarojas/.pico-sdk/sdk/2.3.1/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o	49e415ff37a0b25e
+1279	1498	1789584846707724708	CMakeFiles/SE1_P6_EQ3_DOS.dir/Users/anarojas/.pico-sdk/sdk/2.3.1/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o	b2b05937b028980f
+1022	1504	1789584846450930647	CMakeFiles/SE1_P6_EQ3_DOS.dir/Users/anarojas/.pico-sdk/sdk/2.3.1/src/rp2_common/hardware_watchdog/watchdog.c.o	6502f800af9c98c2
+1418	1513	1789584846847496802	CMakeFiles/SE1_P6_EQ3_DOS.dir/Users/anarojas/.pico-sdk/sdk/2.3.1/src/rp2_common/pico_double/double_aeabi_dcp.S.o	fe757dac15f583fb
+1440	1532	1789584846869023665	CMakeFiles/SE1_P6_EQ3_DOS.dir/Users/anarojas/.pico-sdk/sdk/2.3.1/src/rp2_common/pico_double/double_fma_dcp.S.o	b3e5be03f07f2525
+1450	1546	1789584846879441798	CMakeFiles/SE1_P6_EQ3_DOS.dir/Users/anarojas/.pico-sdk/sdk/2.3.1/src/rp2_common/pico_double/double_sci_m33.S.o	aedb0be98645534
+1468	1552	1789584846896936414	CMakeFiles/SE1_P6_EQ3_DOS.dir/Users/anarojas/.pico-sdk/sdk/2.3.1/src/rp2_common/pico_double/double_conv_m33.S.o	b8d81ed7c4a6fe3c
+1496	1580	1789584846924820519	CMakeFiles/SE1_P6_EQ3_DOS.dir/Users/anarojas/.pico-sdk/sdk/2.3.1/src/rp2_common/pico_float/float_conv32_vfp.S.o	b16af8b89b628b24
+1498	1583	1789584846927604523	CMakeFiles/SE1_P6_EQ3_DOS.dir/Users/anarojas/.pico-sdk/sdk/2.3.1/src/rp2_common/pico_float/float_common_m33.S.o	c815b725ec963570
+1504	1592	1789584846933047057	CMakeFiles/SE1_P6_EQ3_DOS.dir/Users/anarojas/.pico-sdk/sdk/2.3.1/src/rp2_common/pico_float/float_sci_m33_vfp.S.o	1c81ebe330dc43a9
+991	1597	1789584846419670958	CMakeFiles/SE1_P6_EQ3_DOS.dir/Users/anarojas/.pico-sdk/sdk/2.3.1/src/common/pico_util/queue.c.o	ca949d51d26ab4c2
+610	1631	1789584846038963205	CMakeFiles/SE1_P6_EQ3_DOS.dir/Users/anarojas/.pico-sdk/sdk/2.3.1/src/rp2_common/hardware_gpio/gpio.c.o	dcc060ebb4e2bc7
+1075	1648	1789584846504178353	CMakeFiles/SE1_P6_EQ3_DOS.dir/Users/anarojas/.pico-sdk/sdk/2.3.1/src/rp2_common/pico_bootrom/bootrom.c.o	cb1ba07b908150ae
+1584	1695	1789584847012782707	CMakeFiles/SE1_P6_EQ3_DOS.dir/Users/anarojas/.pico-sdk/sdk/2.3.1/src/rp2_common/pico_crt0/crt0.S.o	870d2928cd2ae73f
+1552	1722	1789584846981386902	CMakeFiles/SE1_P6_EQ3_DOS.dir/Users/anarojas/.pico-sdk/sdk/2.3.1/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o	a7cb9c89d2e54c10
+1598	1763	1789584847026609445	CMakeFiles/SE1_P6_EQ3_DOS.dir/Users/anarojas/.pico-sdk/sdk/2.3.1/src/rp2_common/pico_clib_interface/cxa_guard.c.o	38c3726b972cc365
+1513	1768	1789584846942570519	CMakeFiles/SE1_P6_EQ3_DOS.dir/Users/anarojas/.pico-sdk/sdk/2.3.1/src/rp2_common/pico_malloc/malloc.c.o	33876024c735eb70
+786	1820	1789584846215314257	CMakeFiles/SE1_P6_EQ3_DOS.dir/Users/anarojas/.pico-sdk/sdk/2.3.1/src/rp2_common/hardware_timer/timer.c.o	9e4f699fdc283cf2
+1379	1844	1789584846808153740	CMakeFiles/SE1_P6_EQ3_DOS.dir/Users/anarojas/.pico-sdk/sdk/2.3.1/src/rp2_common/pico_divider/divider_compiler.c.o	7bfd790b760ce5e2
+1277	1859	1789584846705764608	CMakeFiles/SE1_P6_EQ3_DOS.dir/Users/anarojas/.pico-sdk/sdk/2.3.1/src/rp2_common/pico_runtime_init/runtime_init.c.o	b325199ba4544d59
+989	1962	1789584846417640071	CMakeFiles/SE1_P6_EQ3_DOS.dir/Users/anarojas/.pico-sdk/sdk/2.3.1/src/common/pico_util/pheap.c.o	48676b2db5cef1bc
+1768	1976	1789584847197154104	CMakeFiles/SE1_P6_EQ3_DOS.dir/Users/anarojas/.pico-sdk/sdk/2.3.1/src/rp2_common/hardware_xip_cache/xip_cache.c.o	1415945a2f3360ee
+1532	1989	1789584846961434728	CMakeFiles/SE1_P6_EQ3_DOS.dir/Users/anarojas/.pico-sdk/sdk/2.3.1/src/rp2_common/pico_atomic/atomic.c.o	1b1b83a76f6a743e
+1002	2126	1789584846431357907	CMakeFiles/SE1_P6_EQ3_DOS.dir/Users/anarojas/.pico-sdk/sdk/2.3.1/src/rp2_common/hardware_clocks/clocks.c.o	f62b410765fe60cb
+1722	2128	1789584847151237665	CMakeFiles/SE1_P6_EQ3_DOS.dir/Users/anarojas/.pico-sdk/sdk/2.3.1/src/rp2_common/pico_unique_id/unique_id.c.o	7a2d4018ed725121
+1989	2147	1789584847417811029	CMakeFiles/SE1_P6_EQ3_DOS.dir/Users/anarojas/.pico-sdk/sdk/2.3.1/lib/tinyusb/src/class/audio/audio_device.c.o	63ce7389c17ef1ef
+1592	2156	1789584847021362553	CMakeFiles/SE1_P6_EQ3_DOS.dir/Users/anarojas/.pico-sdk/sdk/2.3.1/src/rp2_common/pico_clib_interface/newlib_interface.c.o	cb25d226dba77cfd
+1696	2163	1789584847124698688	CMakeFiles/SE1_P6_EQ3_DOS.dir/Users/anarojas/.pico-sdk/sdk/2.3.1/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o	42cb0c976c5265ef
+632	2211	1789584846061143649	CMakeFiles/SE1_P6_EQ3_DOS.dir/Users/anarojas/.pico-sdk/sdk/2.3.1/src/common/pico_time/time.c.o	6f406ec3944d2076
+1546	2274	1789584846975339621	CMakeFiles/SE1_P6_EQ3_DOS.dir/Users/anarojas/.pico-sdk/sdk/2.3.1/src/rp2_common/pico_cxx_options/new_delete.cpp.o	ca538f4e05c3ab7f
+2128	2284	1789584847556859129	CMakeFiles/SE1_P6_EQ3_DOS.dir/Users/anarojas/.pico-sdk/sdk/2.3.1/lib/tinyusb/src/class/dfu/dfu_device.c.o	9dbb5b7f705061d2
+1820	2299	1789584847248754166	CMakeFiles/SE1_P6_EQ3_DOS.dir/Users/anarojas/.pico-sdk/sdk/2.3.1/src/rp2_common/pico_usb_reset/usb_reset.c.o	897bb00ef2162fac
+2147	2301	1789584847575801885	CMakeFiles/SE1_P6_EQ3_DOS.dir/Users/anarojas/.pico-sdk/sdk/2.3.1/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o	e86cf537a53276f5
+2156	2308	1789584847585184127	CMakeFiles/SE1_P6_EQ3_DOS.dir/Users/anarojas/.pico-sdk/sdk/2.3.1/lib/tinyusb/src/class/hid/hid_device.c.o	d21970c204069ce0
+2163	2317	1789584847592583291	CMakeFiles/SE1_P6_EQ3_DOS.dir/Users/anarojas/.pico-sdk/sdk/2.3.1/lib/tinyusb/src/class/midi/midi_device.c.o	4073ba572b397d1c
+1648	2349	1789584847077000677	CMakeFiles/SE1_P6_EQ3_DOS.dir/Users/anarojas/.pico-sdk/sdk/2.3.1/src/rp2_common/pico_stdio_usb/stdio_usb.c.o	ffe690d00c76efe
+2211	2369	1789584847639923965	CMakeFiles/SE1_P6_EQ3_DOS.dir/Users/anarojas/.pico-sdk/sdk/2.3.1/lib/tinyusb/src/class/msc/msc_device.c.o	a9a6a07ca03de696
+1763	2420	1789584847192193853	CMakeFiles/SE1_P6_EQ3_DOS.dir/Users/anarojas/.pico-sdk/sdk/2.3.1/src/rp2_common/hardware_flash/flash.c.o	5b5f6cc2551e255e
+2274	2436	1789584847702851092	CMakeFiles/SE1_P6_EQ3_DOS.dir/Users/anarojas/.pico-sdk/sdk/2.3.1/lib/tinyusb/src/class/net/ecm_rndis_device.c.o	1b3c06c6fa0c8835
+2284	2447	1789584847713023253	CMakeFiles/SE1_P6_EQ3_DOS.dir/Users/anarojas/.pico-sdk/sdk/2.3.1/lib/tinyusb/src/class/net/ncm_device.c.o	aa5993999c2cd6a
+1631	2453	1789584847060345070	CMakeFiles/SE1_P6_EQ3_DOS.dir/Users/anarojas/.pico-sdk/sdk/2.3.1/src/rp2_common/pico_stdio/stdio.c.o	a8b641645b48f17e
+2299	2459	1789584847727909830	CMakeFiles/SE1_P6_EQ3_DOS.dir/Users/anarojas/.pico-sdk/sdk/2.3.1/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o	f6498dc2eb36896e
+2301	2467	1789584847729978690	CMakeFiles/SE1_P6_EQ3_DOS.dir/Users/anarojas/.pico-sdk/sdk/2.3.1/lib/tinyusb/src/class/vendor/vendor_device.c.o	741eeee052936f4c
+2308	2468	1789584847736950857	CMakeFiles/SE1_P6_EQ3_DOS.dir/Users/anarojas/.pico-sdk/sdk/2.3.1/lib/tinyusb/src/class/video/video_device.c.o	16f346d86991a40
+1976	2473	1789584847405417212	CMakeFiles/SE1_P6_EQ3_DOS.dir/Users/anarojas/.pico-sdk/sdk/2.3.1/lib/tinyusb/src/device/usbd_control.c.o	6294ef1816152ad1
+2437	2501	1789584847865684871	pico-sdk/src/rp2350/boot_stage2/CMakeFiles/bs2_default_library.dir/bs2_default_padded.S.o	1ad8b15db94466ce
+2369	2517	1789584847797953653	CMakeFiles/SE1_P6_EQ3_DOS.dir/Users/anarojas/.pico-sdk/sdk/2.3.1/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o	36dc343c1be41599
+1859	2520	1789584847288211197	CMakeFiles/SE1_P6_EQ3_DOS.dir/Users/anarojas/.pico-sdk/sdk/2.3.1/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o	a06a4e670a104600
+1486	2653	1789584846915274220	CMakeFiles/SE1_P6_EQ3_DOS.dir/Users/anarojas/.pico-sdk/sdk/2.3.1/src/rp2_common/pico_float/float_math.c.o	7bba3baa33495a5
+1844	2660	1789584847273251168	CMakeFiles/SE1_P6_EQ3_DOS.dir/Users/anarojas/.pico-sdk/sdk/2.3.1/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o	ab608683372944e3
+2420	2683	1789584847849251712	CMakeFiles/SE1_P6_EQ3_DOS.dir/Users/anarojas/.pico-sdk/sdk/2.3.1/src/rp2_common/pico_thread_local/thread_local.c.o	8988a7321ee34af5
+2126	2691	1789584847554786170	CMakeFiles/SE1_P6_EQ3_DOS.dir/Users/anarojas/.pico-sdk/sdk/2.3.1/lib/tinyusb/src/class/cdc/cdc_device.c.o	62d16e5fe49b290d
+1416	2748	1789584846845412539	CMakeFiles/SE1_P6_EQ3_DOS.dir/Users/anarojas/.pico-sdk/sdk/2.3.1/src/rp2_common/pico_double/double_math.c.o	dbf1390200b982e0
+1580	2774	1789584847009081480	CMakeFiles/SE1_P6_EQ3_DOS.dir/Users/anarojas/.pico-sdk/sdk/2.3.1/src/rp2_common/pico_printf/printf.c.o	3a87a0b5a8c31d09
+2317	2775	1789584847746341308	CMakeFiles/SE1_P6_EQ3_DOS.dir/Users/anarojas/.pico-sdk/sdk/2.3.1/lib/tinyusb/src/tusb.c.o	c5c4cde5e3a1e3f7
+2349	2838	1789584847777797802	CMakeFiles/SE1_P6_EQ3_DOS.dir/Users/anarojas/.pico-sdk/sdk/2.3.1/lib/tinyusb/src/common/tusb_fifo.c.o	c1210bc031f213d8
+1962	2887	1789584847390794809	CMakeFiles/SE1_P6_EQ3_DOS.dir/Users/anarojas/.pico-sdk/sdk/2.3.1/lib/tinyusb/src/device/usbd.c.o	a29f89c1adfa339
+2887	3109	1789584848536484775	SE1_P6_EQ3_DOS.elf	ee63eb82a9a5afe5
+2887	3109	1789584848536484775	SE1_P6_EQ3_DOS.dis	ee63eb82a9a5afe5
+2887	3109	1789584848536484775	SE1_P6_EQ3_DOS.hex	ee63eb82a9a5afe5
+2887	3109	1789584848536484775	SE1_P6_EQ3_DOS.bin	ee63eb82a9a5afe5
+2887	3109	1789584848536484775	SE1_P6_EQ3_DOS.uf2	ee63eb82a9a5afe5
+2887	3109	1789584848536484775	/Users/anarojas/Desktop/Sistemas Embebidos 2026/SE1_P6_EQ3_DOS/build/SE1_P6_EQ3_DOS.dis	ee63eb82a9a5afe5
+2887	3109	1789584848536484775	/Users/anarojas/Desktop/Sistemas Embebidos 2026/SE1_P6_EQ3_DOS/build/SE1_P6_EQ3_DOS.hex	ee63eb82a9a5afe5
+2887	3109	1789584848536484775	/Users/anarojas/Desktop/Sistemas Embebidos 2026/SE1_P6_EQ3_DOS/build/SE1_P6_EQ3_DOS.bin	ee63eb82a9a5afe5
+2887	3109	1789584848536484775	/Users/anarojas/Desktop/Sistemas Embebidos 2026/SE1_P6_EQ3_DOS/build/SE1_P6_EQ3_DOS.uf2	ee63eb82a9a5afe5
+24	1045	1789585126493558201	build.ninja	edc78cbc982260d1
+24	1045	1789585126493558201	/Users/anarojas/Desktop/Sistemas Embebidos 2026/SE1_P6_EQ3_DOS/build/cmake_install.cmake	edc78cbc982260d1
+24	1045	1789585126493558201	/Users/anarojas/Desktop/Sistemas Embebidos 2026/SE1_P6_EQ3_DOS/build/pico-sdk/cmake_install.cmake	edc78cbc982260d1
+24	1045	1789585126493558201	/Users/anarojas/Desktop/Sistemas Embebidos 2026/SE1_P6_EQ3_DOS/build/pico-sdk/tools/cmake_install.cmake	edc78cbc982260d1
+24	1045	1789585126493558201	/Users/anarojas/Desktop/Sistemas Embebidos 2026/SE1_P6_EQ3_DOS/build/pico-sdk/src/cmake_install.cmake	edc78cbc982260d1
+24	1045	1789585126493558201	/Users/anarojas/Desktop/Sistemas Embebidos 2026/SE1_P6_EQ3_DOS/build/pico-sdk/src/common/boot_picobin_headers/cmake_install.cmake	edc78cbc982260d1
+24	1045	1789585126493558201	/Users/anarojas/Desktop/Sistemas Embebidos 2026/SE1_P6_EQ3_DOS/build/pico-sdk/src/common/boot_picoboot_headers/cmake_install.cmake	edc78cbc982260d1
+24	1045	1789585126493558201	/Users/anarojas/Desktop/Sistemas Embebidos 2026/SE1_P6_EQ3_DOS/build/pico-sdk/src/common/boot_uf2_headers/cmake_install.cmake	edc78cbc982260d1
+24	1045	1789585126493558201	/Users/anarojas/Desktop/Sistemas Embebidos 2026/SE1_P6_EQ3_DOS/build/pico-sdk/src/common/pico_base_headers/cmake_install.cmake	edc78cbc982260d1
+24	1045	1789585126493558201	/Users/anarojas/Desktop/Sistemas Embebidos 2026/SE1_P6_EQ3_DOS/build/pico-sdk/src/common/pico_usb_reset_interface_headers/cmake_install.cmake	edc78cbc982260d1
+24	1045	1789585126493558201	/Users/anarojas/Desktop/Sistemas Embebidos 2026/SE1_P6_EQ3_DOS/build/pico-sdk/src/common/pico_bit_ops_headers/cmake_install.cmake	edc78cbc982260d1
+24	1045	1789585126493558201	/Users/anarojas/Desktop/Sistemas Embebidos 2026/SE1_P6_EQ3_DOS/build/pico-sdk/src/common/pico_binary_info/cmake_install.cmake	edc78cbc982260d1
+24	1045	1789585126493558201	/Users/anarojas/Desktop/Sistemas Embebidos 2026/SE1_P6_EQ3_DOS/build/pico-sdk/src/common/pico_divider_headers/cmake_install.cmake	edc78cbc982260d1
+24	1045	1789585126493558201	/Users/anarojas/Desktop/Sistemas Embebidos 2026/SE1_P6_EQ3_DOS/build/pico-sdk/src/common/pico_sync/cmake_install.cmake	edc78cbc982260d1
+24	1045	1789585126493558201	/Users/anarojas/Desktop/Sistemas Embebidos 2026/SE1_P6_EQ3_DOS/build/pico-sdk/src/common/pico_time/cmake_install.cmake	edc78cbc982260d1
+24	1045	1789585126493558201	/Users/anarojas/Desktop/Sistemas Embebidos 2026/SE1_P6_EQ3_DOS/build/pico-sdk/src/common/pico_util/cmake_install.cmake	edc78cbc982260d1
+24	1045	1789585126493558201	/Users/anarojas/Desktop/Sistemas Embebidos 2026/SE1_P6_EQ3_DOS/build/pico-sdk/src/common/pico_stdlib_headers/cmake_install.cmake	edc78cbc982260d1
+24	1045	1789585126493558201	/Users/anarojas/Desktop/Sistemas Embebidos 2026/SE1_P6_EQ3_DOS/build/pico-sdk/src/common/hardware_claim/cmake_install.cmake	edc78cbc982260d1
+24	1045	1789585126493558201	/Users/anarojas/Desktop/Sistemas Embebidos 2026/SE1_P6_EQ3_DOS/build/pico-sdk/src/rp2350/pico_platform/cmake_install.cmake	edc78cbc982260d1
+24	1045	1789585126493558201	/Users/anarojas/Desktop/Sistemas Embebidos 2026/SE1_P6_EQ3_DOS/build/pico-sdk/src/rp2350/hardware_regs/cmake_install.cmake	edc78cbc982260d1
+24	1045	1789585126493558201	/Users/anarojas/Desktop/Sistemas Embebidos 2026/SE1_P6_EQ3_DOS/build/pico-sdk/src/rp2350/hardware_structs/cmake_install.cmake	edc78cbc982260d1
+24	1045	1789585126493558201	/Users/anarojas/Desktop/Sistemas Embebidos 2026/SE1_P6_EQ3_DOS/build/pico-sdk/src/rp2350/boot_stage2/cmake_install.cmake	edc78cbc982260d1
+24	1045	1789585126493558201	/Users/anarojas/Desktop/Sistemas Embebidos 2026/SE1_P6_EQ3_DOS/build/pico-sdk/src/rp2_common/hardware_base/cmake_install.cmake	edc78cbc982260d1
+24	1045	1789585126493558201	/Users/anarojas/Desktop/Sistemas Embebidos 2026/SE1_P6_EQ3_DOS/build/pico-sdk/src/rp2_common/hardware_adc/cmake_install.cmake	edc78cbc982260d1
+24	1045	1789585126493558201	/Users/anarojas/Desktop/Sistemas Embebidos 2026/SE1_P6_EQ3_DOS/build/pico-sdk/src/rp2_common/hardware_boot_lock/cmake_install.cmake	edc78cbc982260d1
+24	1045	1789585126493558201	/Users/anarojas/Desktop/Sistemas Embebidos 2026/SE1_P6_EQ3_DOS/build/pico-sdk/src/rp2_common/hardware_clocks/cmake_install.cmake	edc78cbc982260d1
+24	1045	1789585126493558201	/Users/anarojas/Desktop/Sistemas Embebidos 2026/SE1_P6_EQ3_DOS/build/pico-sdk/src/rp2_common/hardware_divider/cmake_install.cmake	edc78cbc982260d1
+24	1045	1789585126493558201	/Users/anarojas/Desktop/Sistemas Embebidos 2026/SE1_P6_EQ3_DOS/build/pico-sdk/src/rp2_common/hardware_dma/cmake_install.cmake	edc78cbc982260d1
+24	1045	1789585126493558201	/Users/anarojas/Desktop/Sistemas Embebidos 2026/SE1_P6_EQ3_DOS/build/pico-sdk/src/rp2_common/hardware_exception/cmake_install.cmake	edc78cbc982260d1
+24	1045	1789585126493558201	/Users/anarojas/Desktop/Sistemas Embebidos 2026/SE1_P6_EQ3_DOS/build/pico-sdk/src/rp2_common/hardware_flash/cmake_install.cmake	edc78cbc982260d1
+24	1045	1789585126493558201	/Users/anarojas/Desktop/Sistemas Embebidos 2026/SE1_P6_EQ3_DOS/build/pico-sdk/src/rp2_common/hardware_gpio/cmake_install.cmake	edc78cbc982260d1
+24	1045	1789585126493558201	/Users/anarojas/Desktop/Sistemas Embebidos 2026/SE1_P6_EQ3_DOS/build/pico-sdk/src/rp2_common/hardware_i2c/cmake_install.cmake	edc78cbc982260d1
+24	1045	1789585126493558201	/Users/anarojas/Desktop/Sistemas Embebidos 2026/SE1_P6_EQ3_DOS/build/pico-sdk/src/rp2_common/hardware_interp/cmake_install.cmake	edc78cbc982260d1
+24	1045	1789585126493558201	/Users/anarojas/Desktop/Sistemas Embebidos 2026/SE1_P6_EQ3_DOS/build/pico-sdk/src/rp2_common/hardware_irq/cmake_install.cmake	edc78cbc982260d1
+24	1045	1789585126493558201	/Users/anarojas/Desktop/Sistemas Embebidos 2026/SE1_P6_EQ3_DOS/build/pico-sdk/src/rp2_common/hardware_pio/cmake_install.cmake	edc78cbc982260d1
+24	1045	1789585126493558201	/Users/anarojas/Desktop/Sistemas Embebidos 2026/SE1_P6_EQ3_DOS/build/pico-sdk/src/rp2_common/hardware_pll/cmake_install.cmake	edc78cbc982260d1
+24	1045	1789585126493558201	/Users/anarojas/Desktop/Sistemas Embebidos 2026/SE1_P6_EQ3_DOS/build/pico-sdk/src/rp2_common/hardware_pwm/cmake_install.cmake	edc78cbc982260d1
+24	1045	1789585126493558201	/Users/anarojas/Desktop/Sistemas Embebidos 2026/SE1_P6_EQ3_DOS/build/pico-sdk/src/rp2_common/hardware_resets/cmake_install.cmake	edc78cbc982260d1
+24	1045	1789585126493558201	/Users/anarojas/Desktop/Sistemas Embebidos 2026/SE1_P6_EQ3_DOS/build/pico-sdk/src/rp2_common/hardware_rosc/cmake_install.cmake	edc78cbc982260d1
+24	1045	1789585126493558201	/Users/anarojas/Desktop/Sistemas Embebidos 2026/SE1_P6_EQ3_DOS/build/pico-sdk/src/rp2_common/hardware_spi/cmake_install.cmake	edc78cbc982260d1
+24	1045	1789585126493558201	/Users/anarojas/Desktop/Sistemas Embebidos 2026/SE1_P6_EQ3_DOS/build/pico-sdk/src/rp2_common/hardware_sync/cmake_install.cmake	edc78cbc982260d1
+24	1045	1789585126493558201	/Users/anarojas/Desktop/Sistemas Embebidos 2026/SE1_P6_EQ3_DOS/build/pico-sdk/src/rp2_common/hardware_sync_spin_lock/cmake_install.cmake	edc78cbc982260d1
+24	1045	1789585126493558201	/Users/anarojas/Desktop/Sistemas Embebidos 2026/SE1_P6_EQ3_DOS/build/pico-sdk/src/rp2_common/hardware_ticks/cmake_install.cmake	edc78cbc982260d1
+24	1045	1789585126493558201	/Users/anarojas/Desktop/Sistemas Embebidos 2026/SE1_P6_EQ3_DOS/build/pico-sdk/src/rp2_common/hardware_timer/cmake_install.cmake	edc78cbc982260d1
+24	1045	1789585126493558201	/Users/anarojas/Desktop/Sistemas Embebidos 2026/SE1_P6_EQ3_DOS/build/pico-sdk/src/rp2_common/hardware_uart/cmake_install.cmake	edc78cbc982260d1
+24	1045	1789585126493558201	/Users/anarojas/Desktop/Sistemas Embebidos 2026/SE1_P6_EQ3_DOS/build/pico-sdk/src/rp2_common/hardware_vreg/cmake_install.cmake	edc78cbc982260d1
+24	1045	1789585126493558201	/Users/anarojas/Desktop/Sistemas Embebidos 2026/SE1_P6_EQ3_DOS/build/pico-sdk/src/rp2_common/hardware_watchdog/cmake_install.cmake	edc78cbc982260d1
+24	1045	1789585126493558201	/Users/anarojas/Desktop/Sistemas Embebidos 2026/SE1_P6_EQ3_DOS/build/pico-sdk/src/rp2_common/hardware_xip_cache/cmake_install.cmake	edc78cbc982260d1
+24	1045	1789585126493558201	/Users/anarojas/Desktop/Sistemas Embebidos 2026/SE1_P6_EQ3_DOS/build/pico-sdk/src/rp2_common/hardware_xosc/cmake_install.cmake	edc78cbc982260d1
+24	1045	1789585126493558201	/Users/anarojas/Desktop/Sistemas Embebidos 2026/SE1_P6_EQ3_DOS/build/pico-sdk/src/rp2_common/hardware_powman/cmake_install.cmake	edc78cbc982260d1
+24	1045	1789585126493558201	/Users/anarojas/Desktop/Sistemas Embebidos 2026/SE1_P6_EQ3_DOS/build/pico-sdk/src/rp2_common/hardware_psram/cmake_install.cmake	edc78cbc982260d1
+24	1045	1789585126493558201	/Users/anarojas/Desktop/Sistemas Embebidos 2026/SE1_P6_EQ3_DOS/build/pico-sdk/src/rp2_common/hardware_riscv_platform_timer/cmake_install.cmake	edc78cbc982260d1
+24	1045	1789585126493558201	/Users/anarojas/Desktop/Sistemas Embebidos 2026/SE1_P6_EQ3_DOS/build/pico-sdk/src/rp2_common/hardware_sha256/cmake_install.cmake	edc78cbc982260d1
+24	1045	1789585126493558201	/Users/anarojas/Desktop/Sistemas Embebidos 2026/SE1_P6_EQ3_DOS/build/pico-sdk/src/rp2_common/hardware_dcp/cmake_install.cmake	edc78cbc982260d1
+24	1045	1789585126493558201	/Users/anarojas/Desktop/Sistemas Embebidos 2026/SE1_P6_EQ3_DOS/build/pico-sdk/src/rp2_common/hardware_rcp/cmake_install.cmake	edc78cbc982260d1
+24	1045	1789585126493558201	/Users/anarojas/Desktop/Sistemas Embebidos 2026/SE1_P6_EQ3_DOS/build/pico-sdk/src/rp2_common/boot_bootrom_headers/cmake_install.cmake	edc78cbc982260d1
+24	1045	1789585126493558201	/Users/anarojas/Desktop/Sistemas Embebidos 2026/SE1_P6_EQ3_DOS/build/pico-sdk/src/rp2_common/pico_platform_common/cmake_install.cmake	edc78cbc982260d1
+24	1045	1789585126493558201	/Users/anarojas/Desktop/Sistemas Embebidos 2026/SE1_P6_EQ3_DOS/build/pico-sdk/src/rp2_common/pico_platform_compiler/cmake_install.cmake	edc78cbc982260d1
+24	1045	1789585126493558201	/Users/anarojas/Desktop/Sistemas Embebidos 2026/SE1_P6_EQ3_DOS/build/pico-sdk/src/rp2_common/pico_platform_sections/cmake_install.cmake	edc78cbc982260d1
+24	1045	1789585126493558201	/Users/anarojas/Desktop/Sistemas Embebidos 2026/SE1_P6_EQ3_DOS/build/pico-sdk/src/rp2_common/pico_platform_panic/cmake_install.cmake	edc78cbc982260d1
+24	1045	1789585126493558201	/Users/anarojas/Desktop/Sistemas Embebidos 2026/SE1_P6_EQ3_DOS/build/pico-sdk/src/rp2_common/pico_aon_timer/cmake_install.cmake	edc78cbc982260d1
+24	1045	1789585126493558201	/Users/anarojas/Desktop/Sistemas Embebidos 2026/SE1_P6_EQ3_DOS/build/pico-sdk/src/rp2_common/pico_bootrom/cmake_install.cmake	edc78cbc982260d1
+24	1045	1789585126493558201	/Users/anarojas/Desktop/Sistemas Embebidos 2026/SE1_P6_EQ3_DOS/build/pico-sdk/src/rp2_common/pico_bootsel_via_double_reset/cmake_install.cmake	edc78cbc982260d1
+24	1045	1789585126493558201	/Users/anarojas/Desktop/Sistemas Embebidos 2026/SE1_P6_EQ3_DOS/build/pico-sdk/src/rp2_common/pico_multicore/cmake_install.cmake	edc78cbc982260d1
+24	1045	1789585126493558201	/Users/anarojas/Desktop/Sistemas Embebidos 2026/SE1_P6_EQ3_DOS/build/pico-sdk/src/rp2_common/pico_unique_id/cmake_install.cmake	edc78cbc982260d1
+24	1045	1789585126493558201	/Users/anarojas/Desktop/Sistemas Embebidos 2026/SE1_P6_EQ3_DOS/build/pico-sdk/src/rp2_common/pico_atomic/cmake_install.cmake	edc78cbc982260d1
+24	1045	1789585126493558201	/Users/anarojas/Desktop/Sistemas Embebidos 2026/SE1_P6_EQ3_DOS/build/pico-sdk/src/rp2_common/pico_bit_ops/cmake_install.cmake	edc78cbc982260d1
+24	1045	1789585126493558201	/Users/anarojas/Desktop/Sistemas Embebidos 2026/SE1_P6_EQ3_DOS/build/pico-sdk/src/rp2_common/pico_divider/cmake_install.cmake	edc78cbc982260d1
+24	1045	1789585126493558201	/Users/anarojas/Desktop/Sistemas Embebidos 2026/SE1_P6_EQ3_DOS/build/pico-sdk/src/rp2_common/pico_double/cmake_install.cmake	edc78cbc982260d1
+24	1045	1789585126493558201	/Users/anarojas/Desktop/Sistemas Embebidos 2026/SE1_P6_EQ3_DOS/build/pico-sdk/src/rp2_common/pico_int64_ops/cmake_install.cmake	edc78cbc982260d1
+24	1045	1789585126493558201	/Users/anarojas/Desktop/Sistemas Embebidos 2026/SE1_P6_EQ3_DOS/build/pico-sdk/src/rp2_common/pico_flash/cmake_install.cmake	edc78cbc982260d1
+24	1045	1789585126493558201	/Users/anarojas/Desktop/Sistemas Embebidos 2026/SE1_P6_EQ3_DOS/build/pico-sdk/src/rp2_common/pico_float/cmake_install.cmake	edc78cbc982260d1
+24	1045	1789585126493558201	/Users/anarojas/Desktop/Sistemas Embebidos 2026/SE1_P6_EQ3_DOS/build/pico-sdk/src/rp2_common/pico_low_power/cmake_install.cmake	edc78cbc982260d1
+24	1045	1789585126493558201	/Users/anarojas/Desktop/Sistemas Embebidos 2026/SE1_P6_EQ3_DOS/build/pico-sdk/src/rp2_common/pico_mem_ops/cmake_install.cmake	edc78cbc982260d1
+24	1045	1789585126493558201	/Users/anarojas/Desktop/Sistemas Embebidos 2026/SE1_P6_EQ3_DOS/build/pico-sdk/src/rp2_common/pico_malloc/cmake_install.cmake	edc78cbc982260d1
+24	1045	1789585126493558201	/Users/anarojas/Desktop/Sistemas Embebidos 2026/SE1_P6_EQ3_DOS/build/pico-sdk/src/rp2_common/pico_printf/cmake_install.cmake	edc78cbc982260d1
+24	1045	1789585126493558201	/Users/anarojas/Desktop/Sistemas Embebidos 2026/SE1_P6_EQ3_DOS/build/pico-sdk/src/rp2_common/pico_rand/cmake_install.cmake	edc78cbc982260d1
+24	1045	1789585126493558201	/Users/anarojas/Desktop/Sistemas Embebidos 2026/SE1_P6_EQ3_DOS/build/pico-sdk/src/rp2_common/pico_thread_local/cmake_install.cmake	edc78cbc982260d1
+24	1045	1789585126493558201	/Users/anarojas/Desktop/Sistemas Embebidos 2026/SE1_P6_EQ3_DOS/build/pico-sdk/src/rp2_common/pico_sha256/cmake_install.cmake	edc78cbc982260d1
+24	1045	1789585126493558201	/Users/anarojas/Desktop/Sistemas Embebidos 2026/SE1_P6_EQ3_DOS/build/pico-sdk/src/rp2_common/pico_stdio_semihosting/cmake_install.cmake	edc78cbc982260d1
+24	1045	1789585126493558201	/Users/anarojas/Desktop/Sistemas Embebidos 2026/SE1_P6_EQ3_DOS/build/pico-sdk/src/rp2_common/pico_stdio_uart/cmake_install.cmake	edc78cbc982260d1
+24	1045	1789585126493558201	/Users/anarojas/Desktop/Sistemas Embebidos 2026/SE1_P6_EQ3_DOS/build/pico-sdk/src/rp2_common/pico_stdio_rtt/cmake_install.cmake	edc78cbc982260d1
+24	1045	1789585126493558201	/Users/anarojas/Desktop/Sistemas Embebidos 2026/SE1_P6_EQ3_DOS/build/pico-sdk/src/rp2_common/cmsis/cmake_install.cmake	edc78cbc982260d1
+24	1045	1789585126493558201	/Users/anarojas/Desktop/Sistemas Embebidos 2026/SE1_P6_EQ3_DOS/build/pico-sdk/src/rp2_common/tinyusb/cmake_install.cmake	edc78cbc982260d1
+24	1045	1789585126493558201	/Users/anarojas/Desktop/Sistemas Embebidos 2026/SE1_P6_EQ3_DOS/build/pico-sdk/src/rp2_common/pico_stdio_usb/cmake_install.cmake	edc78cbc982260d1
+24	1045	1789585126493558201	/Users/anarojas/Desktop/Sistemas Embebidos 2026/SE1_P6_EQ3_DOS/build/pico-sdk/src/rp2_common/pico_usb_reset/cmake_install.cmake	edc78cbc982260d1
+24	1045	1789585126493558201	/Users/anarojas/Desktop/Sistemas Embebidos 2026/SE1_P6_EQ3_DOS/build/pico-sdk/src/rp2_common/pico_i2c_slave/cmake_install.cmake	edc78cbc982260d1
+24	1045	1789585126493558201	/Users/anarojas/Desktop/Sistemas Embebidos 2026/SE1_P6_EQ3_DOS/build/pico-sdk/src/rp2_common/pico_async_context/cmake_install.cmake	edc78cbc982260d1
+24	1045	1789585126493558201	/Users/anarojas/Desktop/Sistemas Embebidos 2026/SE1_P6_EQ3_DOS/build/pico-sdk/src/rp2_common/pico_btstack/cmake_install.cmake	edc78cbc982260d1
+24	1045	1789585126493558201	/Users/anarojas/Desktop/Sistemas Embebidos 2026/SE1_P6_EQ3_DOS/build/pico-sdk/src/rp2_common/pico_cyw43_driver/cmake_install.cmake	edc78cbc982260d1
+24	1045	1789585126493558201	/Users/anarojas/Desktop/Sistemas Embebidos 2026/SE1_P6_EQ3_DOS/build/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cmake_install.cmake	edc78cbc982260d1
+24	1045	1789585126493558201	/Users/anarojas/Desktop/Sistemas Embebidos 2026/SE1_P6_EQ3_DOS/build/pico-sdk/src/rp2_common/pico_mbedtls/cmake_install.cmake	edc78cbc982260d1
+24	1045	1789585126493558201	/Users/anarojas/Desktop/Sistemas Embebidos 2026/SE1_P6_EQ3_DOS/build/pico-sdk/src/rp2_common/pico_lwip/cmake_install.cmake	edc78cbc982260d1
+24	1045	1789585126493558201	/Users/anarojas/Desktop/Sistemas Embebidos 2026/SE1_P6_EQ3_DOS/build/pico-sdk/src/rp2_common/pico_lwip/tools/cmake_install.cmake	edc78cbc982260d1
+24	1045	1789585126493558201	/Users/anarojas/Desktop/Sistemas Embebidos 2026/SE1_P6_EQ3_DOS/build/pico-sdk/src/rp2_common/pico_cyw43_arch/cmake_install.cmake	edc78cbc982260d1
+24	1045	1789585126493558201	/Users/anarojas/Desktop/Sistemas Embebidos 2026/SE1_P6_EQ3_DOS/build/pico-sdk/src/rp2_common/pico_time_adapter/cmake_install.cmake	edc78cbc982260d1
+24	1045	1789585126493558201	/Users/anarojas/Desktop/Sistemas Embebidos 2026/SE1_P6_EQ3_DOS/build/pico-sdk/src/rp2_common/pico_crt0/cmake_install.cmake	edc78cbc982260d1
+24	1045	1789585126493558201	/Users/anarojas/Desktop/Sistemas Embebidos 2026/SE1_P6_EQ3_DOS/build/pico-sdk/src/rp2_common/pico_clib_interface/cmake_install.cmake	edc78cbc982260d1
+24	1045	1789585126493558201	/Users/anarojas/Desktop/Sistemas Embebidos 2026/SE1_P6_EQ3_DOS/build/pico-sdk/src/rp2_common/pico_cxx_options/cmake_install.cmake	edc78cbc982260d1
+24	1045	1789585126493558201	/Users/anarojas/Desktop/Sistemas Embebidos 2026/SE1_P6_EQ3_DOS/build/pico-sdk/src/rp2_common/pico_standard_binary_info/cmake_install.cmake	edc78cbc982260d1
+24	1045	1789585126493558201	/Users/anarojas/Desktop/Sistemas Embebidos 2026/SE1_P6_EQ3_DOS/build/pico-sdk/src/rp2_common/pico_standard_link/cmake_install.cmake	edc78cbc982260d1
+24	1045	1789585126493558201	/Users/anarojas/Desktop/Sistemas Embebidos 2026/SE1_P6_EQ3_DOS/build/pico-sdk/src/rp2_common/pico_fix/cmake_install.cmake	edc78cbc982260d1
+24	1045	1789585126493558201	/Users/anarojas/Desktop/Sistemas Embebidos 2026/SE1_P6_EQ3_DOS/build/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/cmake_install.cmake	edc78cbc982260d1
+24	1045	1789585126493558201	/Users/anarojas/Desktop/Sistemas Embebidos 2026/SE1_P6_EQ3_DOS/build/pico-sdk/src/rp2_common/pico_status_led/cmake_install.cmake	edc78cbc982260d1
+24	1045	1789585126493558201	/Users/anarojas/Desktop/Sistemas Embebidos 2026/SE1_P6_EQ3_DOS/build/pico-sdk/src/rp2_common/pico_runtime_init/cmake_install.cmake	edc78cbc982260d1
+24	1045	1789585126493558201	/Users/anarojas/Desktop/Sistemas Embebidos 2026/SE1_P6_EQ3_DOS/build/pico-sdk/src/rp2_common/pico_runtime/cmake_install.cmake	edc78cbc982260d1
+24	1045	1789585126493558201	/Users/anarojas/Desktop/Sistemas Embebidos 2026/SE1_P6_EQ3_DOS/build/pico-sdk/src/rp2_common/pico_stdio/cmake_install.cmake	edc78cbc982260d1
+24	1045	1789585126493558201	/Users/anarojas/Desktop/Sistemas Embebidos 2026/SE1_P6_EQ3_DOS/build/pico-sdk/src/rp2_common/pico_stdlib/cmake_install.cmake	edc78cbc982260d1
+24	1045	1789585126493558201	/Users/anarojas/Desktop/Sistemas Embebidos 2026/SE1_P6_EQ3_DOS/build/pico-sdk/docs/cmake_install.cmake	edc78cbc982260d1
+27	469	1789594055537534608	CMakeFiles/SE1_P6_EQ3_DOS.dir/SE1_P6_EQ3_DOS.c.o	e130eb25f823b1b
+469	827	1789594056335909106	SE1_P6_EQ3_DOS.elf	ee63eb82a9a5afe5
+469	827	1789594056335909106	SE1_P6_EQ3_DOS.dis	ee63eb82a9a5afe5
+469	827	1789594056335909106	SE1_P6_EQ3_DOS.hex	ee63eb82a9a5afe5
+469	827	1789594056335909106	SE1_P6_EQ3_DOS.bin	ee63eb82a9a5afe5
+469	827	1789594056335909106	SE1_P6_EQ3_DOS.uf2	ee63eb82a9a5afe5
+469	827	1789594056335909106	/Users/anarojas/Desktop/Sistemas Embebidos 2026/SE1_P6_EQ3_DOS/build/SE1_P6_EQ3_DOS.dis	ee63eb82a9a5afe5
+469	827	1789594056335909106	/Users/anarojas/Desktop/Sistemas Embebidos 2026/SE1_P6_EQ3_DOS/build/SE1_P6_EQ3_DOS.hex	ee63eb82a9a5afe5
+469	827	1789594056335909106	/Users/anarojas/Desktop/Sistemas Embebidos 2026/SE1_P6_EQ3_DOS/build/SE1_P6_EQ3_DOS.bin	ee63eb82a9a5afe5
+469	827	1789594056335909106	/Users/anarojas/Desktop/Sistemas Embebidos 2026/SE1_P6_EQ3_DOS/build/SE1_P6_EQ3_DOS.uf2	ee63eb82a9a5afe5
+14	403	1789594485545885065	CMakeFiles/SE1_P6_EQ3_DOS.dir/SE1_P6_EQ3_DOS.c.o	e130eb25f823b1b
+404	726	1789594486256145330	SE1_P6_EQ3_DOS.elf	ee63eb82a9a5afe5
+404	726	1789594486256145330	SE1_P6_EQ3_DOS.dis	ee63eb82a9a5afe5
+404	726	1789594486256145330	SE1_P6_EQ3_DOS.hex	ee63eb82a9a5afe5
+404	726	1789594486256145330	SE1_P6_EQ3_DOS.bin	ee63eb82a9a5afe5
+404	726	1789594486256145330	SE1_P6_EQ3_DOS.uf2	ee63eb82a9a5afe5
+404	726	1789594486256145330	/Users/anarojas/Desktop/Sistemas Embebidos 2026/SE1_P6_EQ3_DOS/build/SE1_P6_EQ3_DOS.dis	ee63eb82a9a5afe5
+404	726	1789594486256145330	/Users/anarojas/Desktop/Sistemas Embebidos 2026/SE1_P6_EQ3_DOS/build/SE1_P6_EQ3_DOS.hex	ee63eb82a9a5afe5
+404	726	1789594486256145330	/Users/anarojas/Desktop/Sistemas Embebidos 2026/SE1_P6_EQ3_DOS/build/SE1_P6_EQ3_DOS.bin	ee63eb82a9a5afe5
+404	726	1789594486256145330	/Users/anarojas/Desktop/Sistemas Embebidos 2026/SE1_P6_EQ3_DOS/build/SE1_P6_EQ3_DOS.uf2	ee63eb82a9a5afe5
